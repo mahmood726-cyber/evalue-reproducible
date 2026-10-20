@@ -1,0 +1,4 @@
+p22mgr@1.0.0 <WORKSPACE>
++-- docx@9.13.0
+`-- playwright-core@1.59.1
+

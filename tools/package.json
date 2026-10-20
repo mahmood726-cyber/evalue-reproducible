@@ -1,0 +1,17 @@
+{
+  "name": "p22mgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build_docx_p1617.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "docx": "9.13.0",
+    "playwright-core": "1.59.1"
+  }
+}

@@ -1,0 +1,135 @@
+SOURCE: https://cran.r-project.org/package=metafor (final: https://cran.r-project.org/web/packages/metafor/index.html), HTTP 200, accessed 2026-10-20
+PAGE TITLE: CRAN: Package metafor
+
+CRAN: Package metafor
+
+-
+
+-
+
+metafor: Meta-Analysis Package for R
+
+A comprehensive collection of functions for conducting meta-analyses in R. The package includes functions to calculate various effect sizes or outcome measures, fit equal-, fixed-, random-, and mixed-effects models to such data, carry out moderator and meta-regression analyses, and create various types of meta-analytical plots (e.g., forest, funnel, radial, L'Abbe, Baujat, bubble, and GOSH plots). For meta-analyses of binomial and person-time data, the package also provides functions that implement specialized methods, including the Mantel-Haenszel method, Peto's method, and a variety of suitable generalized linear (mixed-effects) models (i.e., mixed-effects logistic and Poisson regression models). Finally, the package provides functionality for fitting meta-analytic multivariate/multilevel models that account for non-independent sampling errors and/or true effects (e.g., due to the inclusion of multiple treatment studies, multiple endpoints, or other forms of clustering). Network meta-analyses and meta-analyses accounting for known correlation structures (e.g., due to phylogenetic relatedness) can also be conducted. An introduction to the package can be found in Viechtbauer (2010) < doi:10.18637/jss.v036.i03 >.
+
+Version:
+
+5.2-1
+
+Depends:
+
+R (≥ 4.0.0), methods , Matrix , metadat , numDeriv
+
+Imports:
+
+stats , utils , graphics , grDevices , nlme , mathjaxr , pbapply , digest
+
+Suggests:
+
+lme4 , pracma , minqa , nloptr , dfoptim , ucminf , lbfgsb3c , subplex , BB , Rsolnp , alabama , optimParallel , optimx , CompQuadForm , mvtnorm , BiasedUrn , Epi , survival , GLMMadaptive , glmmTMB , car , multcomp , gsl , sp , ape , boot , clubSandwich , crayon , R.rsp , testthat , rmarkdown , wildmeta , emmeans , estmeansd , metaBLUE , rstudioapi , glmulti , MuMIn , mice , Amelia , calculus
+
+Published:
+
+2026-09-15
+
+DOI:
+
+10.32614/CRAN.package.metafor
+
+Author:
+
+Wolfgang Viechtbauer
+[aut, cre]
+
+Maintainer:
+
+Wolfgang Viechtbauer <wvb at metafor-project.org>
+
+BugReports:
+
+https://github.com/wviechtb/metafor/issues
+
+License:
+
+GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]
+
+URL:
+
+https://www.metafor-project.org
+https://github.com/wviechtb/metafor
+https://wviechtb.github.io/metafor/ https://www.wvbauer.com
+
+NeedsCompilation:
+
+no
+
+Citation:
+
+metafor citation info
+
+Materials:
+
+README , NEWS
+
+In views:
+
+ClinicalTrials , MetaAnalysis , Phylogenetics
+
+CRAN checks:
+
+metafor results
+
+Documentation:
+
+Reference manual:
+
+metafor.html , metafor.pdf
+
+Vignettes:
+
+Diagram of Functions in the metafor Package ( source )
+
+Conducting Meta-Analyses in R with the metafor Package ( source )
+
+Downloads:
+
+Package source:
+
+metafor_5.2-1.tar.gz
+
+Windows binaries:
+
+r-devel: metafor_5.2-1.zip , r-release: metafor_5.2-1.zip , r-oldrel: metafor_5.2-1.zip
+
+macOS binaries:
+
+r-release (arm64): metafor_5.2-1.tgz , r-oldrel (arm64): metafor_5.2-1.tgz , r-release (x86_64): metafor_5.2-1.tgz , r-oldrel (x86_64): metafor_5.2-1.tgz
+
+Old sources:
+
+metafor archive
+
+Reverse dependencies:
+
+Reverse depends:
+
+bayesmeta , BLMA , mada , metawho
+
+Reverse imports:
+
+altmeta , BayesCACE , boot.heterogeneity , boutliers , CalibrationCurves , CaMeA , CausalMetaR , climatehealth , confMeta , contourforest , dreamlet , dsBaseClient , esci , EValue , fmri , fragility , getmstatistic , getspres , GSEMA , idionomics , MAGMA.R , meta , metaConvert , MetaCyto , MetaDose , metaforest , metagam , metagear , MetaHD , metainsight , metalabr , metaLong , metamedian , metamisc , metaplus , metaquant , MetaStan , MetaUtility , metaviz , miniMeta , MMUPHin , multibiasmeta , multisite.accuracy , MVPBT , NAPrior , netmeta , NMA , NO.PING.PONG , NSM3 , orchaRd , pda , phacking , PINMA , psychmeta , PublicationBias , PublicationBiasBenchmark , puniform , R4HCR , Replicate , reproducer , robustmeta , RTSA , SSDforR , tsahr , wildmeta , xmeta
+
+Reverse suggests:
+
+agridat , bayprior , BFpack , broom , cdmeta , clubSandwich , curatedCRCData , curatedOvarianData , detectnorm , drmeta , drmTMB , DSMolgenisArmadillo , forestmodel , futurize , gap , ggextreme , ggstatsplot , glmmTMB , insight , leadeR , ltgsmd , MAd , MAIVE , metaconfoundr , metadat , metainc , metarep , metaselection , metaSEM , metaumbrella , mixmeta , mvmeta , parameters , pema , performance , ProMetaR , publipha , R4VN , rdss , remaCor , respondeR , rnmamod , RoBMA , see , statsExpressions
+
+Linking:
+
+Please use the canonical form
+https://CRAN.R-project.org/package=metafor
+to link to this page.
+
+
+--- From https://cran.r-project.org/web/packages/metafor/DESCRIPTION (HTTP 200, accessed 2026-10-20) ---
+Title: Meta-Analysis Package for R
+Version: 5.2-1
+Date/Publication: 2026-09-15 12:30:02 UTC

@@ -1,0 +1,230 @@
+[
+  {
+    "n": 1,
+    "doi": "10.7326/M16-2607",
+    "crossref_http_status": 200,
+    "doi_org_final_status": 403,
+    "resolved_url": "https://www.acpjournals.org/doi/10.7326/M16-2607",
+    "doi_org_first_hop_status": 302,
+    "doi_org_first_hop_location": "",
+    "title": "Sensitivity Analysis in Observational Research: Introducing the E-Value",
+    "container_title": "Annals of Internal Medicine",
+    "year": 2017,
+    "year_print": 2017,
+    "volume": "167",
+    "issue": "4",
+    "page": "268-274",
+    "type": "journal-article",
+    "n_authors": 2,
+    "authors_all": [
+      "VanderWeele TJ",
+      "Ding P"
+    ],
+    "authors_first3": [
+      "VanderWeele TJ",
+      "Ding P"
+    ],
+    "crossref_doi": "10.7326/m16-2607"
+  },
+  {
+    "n": 2,
+    "doi": "10.1097/EDE.0000000000000864",
+    "crossref_http_status": 200,
+    "doi_org_final_status": 403,
+    "resolved_url": "https://journals.lww.com/00001648-201809000-00026",
+    "doi_org_first_hop_status": 302,
+    "doi_org_first_hop_location": "",
+    "title": "Web Site and R Package for Computing E-values",
+    "container_title": "Epidemiology",
+    "year": 2018,
+    "year_print": 2018,
+    "volume": "29",
+    "issue": "5",
+    "page": "e45-e47",
+    "type": "journal-article",
+    "n_authors": 4,
+    "authors_all": [
+      "Mathur MB",
+      "Ding P",
+      "Riddell CA",
+      "VanderWeele TJ"
+    ],
+    "authors_first3": [
+      "Mathur MB",
+      "Ding P",
+      "Riddell CA"
+    ],
+    "crossref_doi": "10.1097/ede.0000000000000864"
+  },
+  {
+    "n": 3,
+    "doi": "10.18637/jss.v036.i03",
+    "crossref_http_status": 200,
+    "doi_org_final_status": 200,
+    "resolved_url": "https://www.jstatsoft.org/article/view/v036i03",
+    "doi_org_first_hop_status": 302,
+    "doi_org_first_hop_location": "",
+    "title": "Conducting Meta-Analyses in\n                    <i>R</i>\n                    with the\n                    <b>metafor</b>\n                    Package",
+    "container_title": "Journal of Statistical Software",
+    "year": 2010,
+    "year_print": null,
+    "volume": "36",
+    "issue": "3",
+    "page": null,
+    "type": "journal-article",
+    "n_authors": 1,
+    "authors_all": [
+      "Viechtbauer W"
+    ],
+    "authors_first3": [
+      "Viechtbauer W"
+    ],
+    "crossref_doi": "10.18637/jss.v036.i03"
+  },
+  {
+    "n": 4,
+    "doi": "10.12688/f1000research.181441.1",
+    "crossref_http_status": 200,
+    "doi_org_final_status": 200,
+    "resolved_url": "https://f1000research.com/articles/15-838/v1",
+    "doi_org_first_hop_status": 302,
+    "doi_org_first_hop_location": "",
+    "title": "RapidMeta Cardiology: A Browser-Based Living Meta-Analysis Platform Validated Against Finerenone Phase III Trial Data",
+    "container_title": "F1000Research",
+    "year": 2026,
+    "year_print": null,
+    "volume": "15",
+    "issue": null,
+    "page": "838",
+    "type": "journal-article",
+    "n_authors": 12,
+    "authors_all": [
+      "Ali SM",
+      "Ahmad M",
+      "Khan L",
+      "Kiel J",
+      "O'Connor N",
+      "Kukreja N",
+      "Woo A",
+      "Quadri SF",
+      "Ahmad RR",
+      "Ahmad MT",
+      "Dar B",
+      "Ahmad T"
+    ],
+    "authors_first3": [
+      "Ali SM",
+      "Ahmad M",
+      "Khan L"
+    ],
+    "crossref_doi": "10.12688/f1000research.181441.1"
+  },
+  {
+    "n": 5,
+    "doi": "10.1111/biom.13197",
+    "crossref_http_status": 200,
+    "doi_org_final_status": 403,
+    "resolved_url": "https://academic.oup.com/biometrics/article/76/3/746-752/7429123",
+    "doi_org_first_hop_status": 302,
+    "doi_org_first_hop_location": "",
+    "title": "Optimal approximate conversions of odds ratios and hazard ratios to risk ratios",
+    "container_title": "Biometrics",
+    "year": 2020,
+    "year_print": 2020,
+    "volume": "76",
+    "issue": "3",
+    "page": "746-752",
+    "type": "journal-article",
+    "n_authors": 1,
+    "authors_all": [
+      "VanderWeele TJ"
+    ],
+    "authors_first3": [
+      "VanderWeele TJ"
+    ],
+    "crossref_doi": "10.1111/biom.13197"
+  },
+  {
+    "n": 6,
+    "doi": "10.1002/1097-0258(20001130)19:22<3127::AID-SIM784>3.0.CO;2-M",
+    "crossref_http_status": 200,
+    "doi_org_final_status": 403,
+    "resolved_url": "https://onlinelibrary.wiley.com/doi/10.1002/1097-0258(20001130)19:22%3C3127::AID-SIM784%3E3.0.CO;2-M",
+    "doi_org_first_hop_status": 302,
+    "doi_org_first_hop_location": "",
+    "title": "A simple method for converting an odds ratio to effect size for use in meta-analysis",
+    "container_title": "Statistics in Medicine",
+    "year": 2000,
+    "year_print": 2000,
+    "volume": "19",
+    "issue": "22",
+    "page": "3127-3131",
+    "type": "journal-article",
+    "n_authors": 1,
+    "authors_all": [
+      "Chinn S"
+    ],
+    "authors_first3": [
+      "Chinn S"
+    ],
+    "crossref_doi": "10.1002/1097-0258(20001130)19:22<3127::aid-sim784>3.0.co;2-m"
+  },
+  {
+    "n": 7,
+    "doi": "10.1177/1536867X20909696",
+    "crossref_http_status": 200,
+    "doi_org_final_status": 403,
+    "resolved_url": "https://journals.sagepub.com/doi/10.1177/1536867X20909696",
+    "doi_org_first_hop_status": 302,
+    "doi_org_first_hop_location": "",
+    "title": "Conducting sensitivity analysis for unmeasured confounding in observational studies using E-values: The evalue package",
+    "container_title": "The Stata Journal: Promoting communications on statistics and Stata",
+    "year": 2020,
+    "year_print": 2020,
+    "volume": "20",
+    "issue": "1",
+    "page": "162-175",
+    "type": "journal-article",
+    "n_authors": 3,
+    "authors_all": [
+      "Linden A",
+      "Mathur MB",
+      "VanderWeele TJ"
+    ],
+    "authors_first3": [
+      "Linden A",
+      "Mathur MB",
+      "VanderWeele TJ"
+    ],
+    "crossref_doi": "10.1177/1536867x20909696"
+  },
+  {
+    "n": 8,
+    "doi": "10.1515/jci-2018-0007",
+    "crossref_http_status": 200,
+    "doi_org_final_status": 202,
+    "resolved_url": "https://www.degruyterbrill.com/document/doi/10.1515/jci-2018-0007/html",
+    "doi_org_first_hop_status": 302,
+    "doi_org_first_hop_location": "",
+    "title": "Technical Considerations in the Use of the E-Value",
+    "container_title": "Journal of Causal Inference",
+    "year": 2019,
+    "year_print": 2019,
+    "volume": "7",
+    "issue": "2",
+    "page": "20180007",
+    "type": "journal-article",
+    "n_authors": 3,
+    "authors_all": [
+      "VanderWeele TJ",
+      "Ding P",
+      "Mathur M"
+    ],
+    "authors_first3": [
+      "VanderWeele TJ",
+      "Ding P",
+      "Mathur M"
+    ],
+    "crossref_doi": "10.1515/jci-2018-0007"
+  }
+]

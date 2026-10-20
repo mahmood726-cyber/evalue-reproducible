@@ -1,0 +1,8 @@
+{
+  "session": "host, 2026-10-20",
+  "origin_main": "74ff0a7d2263ca8e0c07419888152ea156036abd",
+  "branch": "f1000/p22-evalue",
+  "head": "74ff0a7d2263ca8e0c07419888152ea156036abd",
+  "ls_remote_v1.8.0": "ABSENT (not yet tagged)",
+  "note": "app-original/ bytes equal allmeta HEAD 74ff0a7 (evalue/index.html, shared/evalue.js, shared/build-info.js compared with cmp). No app change was required (22,428/22,428)."
+}

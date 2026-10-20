@@ -1,46 +1,58 @@
-# E-value reproducibility archive — paper 22
+# E-value reproducibility archive — paper 22 (allmeta `evalue/`)
 
-**Incomplete validation archive; not ready for publication.** This directory is local only and is not a git repository. No release, DOI, browser evidence or fresh installed-EValue agreement is claimed.
+Validation archive for the allmeta E-value page (VanderWeele & Ding E-value for RR, OR, HR and standardized mean differences) against the CRAN R package **EValue 4.1.4**. It is local only. There is no release yet: metadata carry `<ALLMETA_RELEASE>` / `<ALLMETA_RELEASE_DOI>` placeholders.
 
-The original allmeta page and its local dependencies are preserved byte for byte in `app-original/`; full checkout identity and each snapshot hash are in `provenance.json`. The checkout is newer than the bundled build-info stamp. Tag v1.8.0 is not locally available. Host fetch/tag reconciliation and a complete rerun are required before a release claim.
+## Result
 
-## Evidence available
+| | Original page (allmeta 74ff0a7) |
+|---|---|
+| Configurations | 3,738 (2,413 real-data from 30 metadat datasets + 1,325 synthetic) |
+| Checks (acceptance + 5 quantities each) | **22,428 / 22,428** |
+| Largest normalized difference | 4.9 × 10⁻¹⁵ (tolerance 1 × 10⁻⁹ relative to max(1, \|R\|)) |
+| Refusal probes | 26 / 26 (13 invalid inputs) |
+| Planted defects | all rejected: +1e-8 relative perturbation (22,427/22,428), dropped configuration, duplicate ID, nonfinite value, perturbed HR constant in the app source (21,691/22,428) |
+| Archive safeguards | 4 / 4 (changed, missing, extra file; wrong R version) |
 
-- `PREREG.md` and `PREREG_ADDENDUM.md`: prespecified inputs, tolerances, safeguards and scope.
-- `data/`: original installed-package datasets, 48 derived real-data configurations and 73 synthetic configurations, 121 total.
-- `evidence/local/inherited-summary.json`: 78/78 checks (13 acceptance states and 65 quantities/nulls) against a pre-existing synthetic repository fixture.
-- `evidence/local/refusals-summary.json`: 26/26 checks on 13 invalid-input probes.
-- `evidence/local/comparator-safeguards.json`: numerical perturbation, dropped configuration, duplicate ID and nonfinite value all rejected.
-- `evidence/local/corpus-execution.json`: all 121 configurations execute; this is NOT an R parity count.
+No app defect was found, so there is no fixed snapshot and no before/after comparison. The quantities checked are the point E-value, the CI E-value (limit nearest the null; 1 if the interval crosses the null) and the approximate RR with its limits. Evidence: `evidence/fresh/run-1-original-page/` (`summary.json`, `reference.csv`, `full-app.json`, `safeguards.json`, `mutant-summary.json`, `refusals-summary.json`, `validate-stdout.log`, and `reference.csv.session.txt` with the R sessionInfo).
 
-The fixture reports EValue source-function execution at a pinned upstream commit, not an installed package. Its supplied source generator is retained as `.R.txt` provenance, not executed here. Do not present inherited reference checks as fresh R validation.
-
-## One-command full validator
-
-From this directory, with R 4.6.0, EValue 4.1.4, metadat 1.6.0 and metafor 5.2.1 installed:
+## One-command validation
 
 ```text
+set R_LIBS_USER=<library containing EValue 4.1.4>
 Rscript --vanilla validate.R < NUL
 ```
 
-Python 3 and Node are also required (local versions recorded in `evidence/environment.json`). `RSCRIPT`, `PYTHON` and `R_LIBS_USER` may select executables/library locations; they cannot bypass exact R package pins. No command installs packages or uses the network.
+Requirements: R 4.6.0, EValue 4.1.4, metadat 1.6.0 and metafor 5.2.1. Every R script asserts these exactly and stops on any mismatch. Python 3 and Node.js (v24 used) are also needed. `RSCRIPT` and `PYTHON` may point to the executables. Nothing is installed and no network is used.
 
-The validator refuses missing/wrong versions, checks the complete SHA-256 source inventory, generates fresh corpus and references, executes all page scripts in document order, compares fixed expected IDs/quantity keys/nulls and prints passed/expected, and runs numerical/drop/duplicate/nonfinite safeguards. Existing `.validate-work` is refused; preserve it elsewhere before retry. New outputs go only in `.validate-work`.
+The validator then:
+1. checks the SHA-256 inventory (`SOURCE_SHA256.json`);
+2. regenerates the real-data corpus from metadat and requires byte identity with `data/real-corpus.csv` and `data/corpus.json`;
+3. computes fresh EValue references (`analysis/reference.R`);
+4. executes the archived page's scripts in document order in Node (`analysis/replay.cjs`, simulated DOM, the page's own click handler and result accessor);
+5. compares with fixed denominators and prints N/N;
+6. runs the planted defects, refusal probes and archive safeguards.
 
-The EValue reference adapter is **prepared but unexecuted**. Host review of installed function signatures and the expected two-row/three-column result layout is required. SMD point and each endpoint are transformed independently with evalues.MD(sd=1); this does not claim equivalence to its se-based interval constructor.
+Output goes to `.validate-work/`. If that directory already exists, the run is refused; move it aside first.
 
-Local-only replay: `python -B analysis/pipeline.py local`. Integrity: `python -B analysis/pipeline.py verify`. These do not complete the fresh R gate. Regenerating evidence intentionally invalidates `SOURCE_SHA256.json`; review changes before regenerating the inventory.
+## Contents
+
+- `PREREG.md`, `PREREG_ADDENDUM.md`, `PREREG_ADDENDUM_2.md`: the plan, written and committed (ea69964) before any EValue corpus result. Addendum 2 widened the real-data corpus to 30 datasets and removed a no-op `sd=1` argument from the MD adapter.
+- `app-original/`: page, engine (`shared/evalue.js`) and local dependencies, byte-identical to allmeta commit 74ff0a7d2263ca8e0c07419888152ea156036abd (`provenance.json`, `provenance-host.json`). The bundled `build-info.js` still says v1.7.0. v1.8.0 was not tagged on 20 Oct 2026.
+- `data/`: `real-corpus.csv`, `corpus.json`, `oracle-input.csv`, and the exported source datasets in `data/sources/`.
+- `analysis/`: corpus generator, EValue adapter, Node replay, comparator/safeguards (`pipeline.py`), `verify_archive.py`, `test_safeguards.py`, version gate.
+- `figures/`: Figure 1 (dat.bcg trial 1, RR) and Figure 2 (dat.normand1999 study 1, SMD), captured from the archived page in Microsoft Edge 155 (headless, Playwright-core 1.59.1). Included are the raw PNGs, the RGB/LZW/300-dpi TIFFs and `capture.json`. The capture asserts that the browser's values equal the fresh EValue reference within 1e-9. `verification.json` contains the PIL checks. `tools/` holds the capture and conversion scripts as run from the workspace, plus the npm lock.
+- `evidence/local/`: earlier offline-session evidence (an inherited 13-case fixture, 78/78, and the 121-input pilot corpus). It is superseded by `evidence/fresh/` and kept for provenance.
+- `references/`: the reference ledger, author assignment and wording rules.
+- `publication/`: manuscript working files.
 
 ## Scope and limits
 
-The page supports RR, OR, HR and SMD. It does not offer OLS, RD, confounded_meta or sens_plot. The broad brief's corresponding requirement remains unmet. No feature expansion was authorized by an explicit specification; unsupported functions are not counted as passing tests.
+- **Methods covered:** EValue `evalues.RR`, `evalues.OR` and `evalues.HR` (rare and common outcome), and `evalues.MD` for standardized differences. The page offers no OLS, risk-difference or meta-analytic (`confounded_meta`, `sens_plot`) E-values, so none is validated or claimed.
+- **SMD intervals:** the page transforms each user-supplied limit with exp(0.91·d). The counted comparison applies `evalues.MD` to each limit in the same way. EValue's own se-based interval uses exp(0.91·d ± 1.78·se); compared with that, the page's RR limits differ by up to 0.85% on the real-data rows (`smd-se-convention.json`, descriptive only, not counted). The difference comes from the rounded 1.78 versus 0.91 × 1.96 = 1.7836.
+- **Real-data inputs:** individual study estimates computed with metafor `escalc` (add 0.5 to zero cells only; SMD bias-corrected with Wald limits). These are numerical test inputs, not clinical or pooled analyses. Rows with missing raw data are excluded by the preregistered rule: 24 binary and 40 SMD row-analyses in 5 datasets, with per-dataset counts in `corpus.log`. HR is tested only on synthetic inputs.
+- **Node replay vs browser:** the counted checks run the page script on a simulated document. Real-browser behaviour is shown only for the two figure inputs, in Edge 155 on Windows 10. Other browsers are untested.
+- **Oracle provenance:** EValue 4.1.4 is the CRAN Windows binary, built under R 4.6.1 and run under R 4.6.0. R prints a "built under" warning, which is recorded and does not affect validity.
 
-Real-data values are individual study effect estimates derived using metafor, not pooled effects or meta-analytic E-values. Binary zero-cell correction is 0.5 for affected tables only. The source dataset yielded a warning about large SMDs; none were removed after seeing results. These are numerical probes, not clinical analyses.
+## Licence and citation
 
-Node uses a minimal simulated DOM. It checks computation and refusal cleanup, but does not establish real browser input parsing, accessibility, rendering, screenshots or offline operation in a browser. Real-page Edge captures and TIFF verification are outstanding host work. The original snapshot has not been changed; there is no fixed version or original-versus-fixed improvement claim.
-
-See the workspace `HOST_STEPS.md`, `STATUS.md`, `JOURNAL.md` and manuscript trace for remaining gates. A filesystem replay is not a committed `git archive` replay.
-
-## Licensing and citation
-
-The allmeta snapshot includes its original MIT license. Dataset sources remain metadat datasets with their package/source attribution; study provenance is retained in the exported rows. Cite the EValue package and method paper after live bibliographic verification. Metadata contains `<ALLMETA_RELEASE>` and `<ALLMETA_RELEASE_DOI>` intentionally; no DOI has been minted.
+Archive tooling is MIT, and the allmeta snapshot keeps its MIT licence. Datasets come from metadat with their original attributions. See `CITATION.cff`. Cite the EValue package and VanderWeele & Ding (2017).

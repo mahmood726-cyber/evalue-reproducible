@@ -1,0 +1,62 @@
+{
+  "checks_passed": 22428,
+  "checks_expected": 22428,
+  "configurations": 3738,
+  "max_normalized_difference": 4.862166479269799e-15,
+  "tolerance": 1e-09,
+  "real_configurations": 2413,
+  "synthetic_configurations": 1325,
+  "real_datasets": 30,
+  "configurations_by_measure": {
+    "RR": 962,
+    "OR": 1920,
+    "SMD": 428,
+    "HR": 428
+  },
+  "real_by_measure": {
+    "RR": 746,
+    "OR": 1492,
+    "SMD": 175
+  },
+  "excluded_binary_rows": 24,
+  "excluded_smd_rows": 40,
+  "excluded_datasets": 5,
+  "refusal_passed": 26,
+  "refusal_expected": 26,
+  "refusal_probes": 13,
+  "perturbation_result": "22427/22428 checks pass",
+  "dropped_rejected": true,
+  "mutant_passed": 21691,
+  "mutant_expected": 22428,
+  "smd_se_max_rel_diff_real": 0.008512414753996304,
+  "smd_se_real_configurations": 175,
+  "browser": "Microsoft Edge 155.0.4283.62",
+  "figures": {
+    "figure1": {
+      "id": "bcg-001-RR-FALSE",
+      "point": 0.410938654841094,
+      "lo": 0.134301570832589,
+      "hi": 1.25739838332279,
+      "e_point": 4.301136674519124,
+      "e_ci": 1,
+      "rr": {
+        "point": 0.410938654841094,
+        "lo": 0.134301570832589,
+        "hi": 1.25739838332279
+      }
+    },
+    "figure2": {
+      "id": "normand1999-001-SMD",
+      "point": -0.355169640940107,
+      "lo": -0.57919511515792,
+      "hi": -0.131144166722294,
+      "e_point": 2.107582314887569,
+      "e_ci": 1.5046708733082257,
+      "rr": {
+        "point": 0.7238259085929979,
+        "lo": 0.590333554751886,
+        "hi": 0.8875049397635569
+      }
+    }
+  }
+}

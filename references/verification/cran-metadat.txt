@@ -1,0 +1,136 @@
+SOURCE: https://cran.r-project.org/package=metadat (final: https://cran.r-project.org/web/packages/metadat/index.html), HTTP 200, accessed 2026-10-20
+PAGE TITLE: CRAN: Package metadat
+
+CRAN: Package metadat
+
+-
+
+-
+
+metadat: Meta-Analysis Datasets
+
+A collection of meta-analysis datasets for teaching purposes, illustrating/testing meta-analytic methods, and validating published analyses.
+
+Version:
+
+1.6-0
+
+Depends:
+
+R (≥ 4.0.0)
+
+Imports:
+
+utils , tools , mathjaxr
+
+Suggests:
+
+metafor , numDeriv , BiasedUrn , dfoptim , igraph , ape , testthat , digest , lme4 , clubSandwich , meta , netmeta , mvtnorm , gridExtra , rms , bayesmeta , ellipse , metasens , mada
+
+Published:
+
+2026-04-29
+
+DOI:
+
+10.32614/CRAN.package.metadat
+
+Author:
+
+Wolfgang Viechtbauer
+[aut, cre],
+Thomas White
+[aut],
+Daniel Noble
+[aut],
+Alistair Senior
+[aut],
+W. Kyle Hamilton
+[aut],
+Guido Schwarzer
+[dtc],
+Christian Röver
+[dtc]
+
+Maintainer:
+
+Wolfgang Viechtbauer <wvb at metafor-project.org>
+
+BugReports:
+
+https://github.com/wviechtb/metadat/issues
+
+License:
+
+GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]
+
+URL:
+
+https://github.com/wviechtb/metadat ,
+https://wviechtb.github.io/metadat/
+
+NeedsCompilation:
+
+no
+
+Materials:
+
+README , NEWS
+
+In views:
+
+MetaAnalysis
+
+CRAN checks:
+
+metadat results
+
+Documentation:
+
+Reference manual:
+
+metadat.html , metadat.pdf
+
+Downloads:
+
+Package source:
+
+metadat_1.6-0.tar.gz
+
+Windows binaries:
+
+r-devel: metadat_1.6-0.zip , r-release: metadat_1.6-0.zip , r-oldrel: metadat_1.6-0.zip
+
+macOS binaries:
+
+r-release (arm64): metadat_1.6-0.tgz , r-oldrel (arm64): metadat_1.6-0.tgz , r-release (x86_64): metadat_1.6-0.tgz , r-oldrel (x86_64): metadat_1.6-0.tgz
+
+Old sources:
+
+metadat archive
+
+Reverse dependencies:
+
+Reverse depends:
+
+metafor
+
+Reverse imports:
+
+metaforest , MetaUtility
+
+Reverse suggests:
+
+aedl , clubSandwich , drmeta , drmTMB , EValue , ggextreme , insight , meta , metaselection , orchaRd , performance , publipha , puniform , restriktor , RoBMA
+
+Linking:
+
+Please use the canonical form
+https://CRAN.R-project.org/package=metadat
+to link to this page.
+
+
+--- From https://cran.r-project.org/web/packages/metadat/DESCRIPTION (HTTP 200, accessed 2026-10-20) ---
+Title: Meta-Analysis Datasets
+Version: 1.6-0
+Date/Publication: 2026-04-29 15:10:14 UTC

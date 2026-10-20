@@ -1,0 +1,126 @@
+SOURCE: https://cran.r-project.org/package=EValue (final: https://cran.r-project.org/web/packages/EValue/index.html), HTTP 200, accessed 2026-10-20
+PAGE TITLE: CRAN: Package EValue
+
+CRAN: Package EValue
+
+-
+
+-
+
+EValue: Sensitivity Analyses for Unmeasured Confounding and Other Biases
+in Observational Studies and Meta-Analyses
+
+Conducts sensitivity analyses for unmeasured confounding, selection bias, and measurement error (individually or in combination; VanderWeele & Ding (2017) < doi:10.7326/M16-2607 >; Smith & VanderWeele (2019) < doi:10.1097/EDE.0000000000001032 >; VanderWeele & Li (2019) < doi:10.1093/aje/kwz133 >; Smith, Mathur, & VanderWeele (2021) < doi:10.1097/EDE.0000000000001380 >). Also conducts sensitivity analyses for unmeasured confounding in meta-analyses (Mathur & VanderWeele (2020a) < doi:10.1080/01621459.2018.1529598 >; Mathur & VanderWeele (2020b) < doi:10.1097/EDE.0000000000001180 >) and for additive measures of effect modification (Mathur et al., < doi:10.1093/ije/dyac073 >).
+
+Version:
+
+4.1.4
+
+Imports:
+
+stats , graphics , ggplot2 (≥ 2.2.1), metafor , methods , boot , MetaUtility , dplyr
+
+Suggests:
+
+testthat , knitr , rmarkdown , metadat
+
+Published:
+
+2025-08-28
+
+DOI:
+
+10.32614/CRAN.package.EValue
+
+Author:
+
+Maya B. Mathur [cre, aut],
+Louisa H. Smith [aut],
+Peng Ding [aut],
+Tyler J. VanderWeele [aut]
+
+Maintainer:
+
+Maya B. Mathur <mmathur at stanford.edu>
+
+License:
+
+GPL-2
+
+NeedsCompilation:
+
+no
+
+Citation:
+
+EValue citation info
+
+Materials:
+
+README
+
+In views:
+
+CausalInference , MetaAnalysis
+
+CRAN checks:
+
+EValue results
+
+Documentation:
+
+Reference manual:
+
+EValue.html , EValue.pdf
+
+Vignettes:
+
+E-values for meta-analyses ( source , R code )
+
+Examples of multiple-bias sensitivity analysis ( source , R code )
+
+E-values for multiple biases ( source , R code )
+
+E-values for selection bias ( source , R code )
+
+E-values for unmeasured confounding ( source , R code )
+
+Downloads:
+
+Package source:
+
+EValue_4.1.4.tar.gz
+
+Windows binaries:
+
+r-devel: EValue_4.1.4.zip , r-release: EValue_4.1.4.zip , r-oldrel: EValue_4.1.4.zip
+
+macOS binaries:
+
+r-release (arm64): EValue_4.1.4.tgz , r-oldrel (arm64): EValue_4.1.4.tgz , r-release (x86_64): EValue_4.1.4.tgz , r-oldrel (x86_64): EValue_4.1.4.tgz
+
+Old sources:
+
+EValue archive
+
+Reverse dependencies:
+
+Reverse imports:
+
+multibiasmeta
+
+Reverse suggests:
+
+causalfrag , confoundvis , deltapif , SimtablR
+
+Linking:
+
+Please use the canonical form
+https://CRAN.R-project.org/package=EValue
+to link to this page.
+
+
+--- From https://cran.r-project.org/web/packages/EValue/DESCRIPTION (HTTP 200, accessed 2026-10-20) ---
+Title: Sensitivity Analyses for Unmeasured Confounding and Other Biases in Observational Studies and Meta-Analyses
+Version: 4.1.4
+Date/Publication: 2025-08-28 23:50:02 UTC

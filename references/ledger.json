@@ -2,37 +2,121 @@
   {
     "number": 1,
     "doi": "10.7326/M16-2607",
-    "expected_title": "Sensitivity Analysis in Observational Research: Introducing the E-Value",
-    "source": "Archived app footer",
-    "verified_live": false,
-    "resolved_url": null,
-    "title_read": null
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "crossref_http": 200,
+    "resolved_url": "https://www.acpjournals.org/doi/10.7326/M16-2607",
+    "landing_http": 403,
+    "title_read": "Sensitivity Analysis in Observational Research: Introducing the E-Value",
+    "evidence": "refcheck/crossref/ + refcheck/references.json"
   },
   {
     "number": 2,
-    "doi": null,
-    "expected_title": "EValue: Sensitivity Analyses for Unmeasured Confounding",
-    "source": "Package name; host must inspect installed citation('EValue') and official package page",
-    "verified_live": false,
-    "resolved_url": null,
-    "title_read": null
+    "doi": "10.1097/EDE.0000000000000864",
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "crossref_http": 200,
+    "resolved_url": "https://journals.lww.com/00001648-201809000-00026",
+    "landing_http": 403,
+    "title_read": "Web Site and R Package for Computing E-values",
+    "evidence": "refcheck/crossref/ + refcheck/references.json"
   },
   {
     "number": 3,
-    "doi": "10.12688/f1000research.181441.1",
-    "expected_title": "RapidMeta Cardiology: A Browser-Based Living Meta-Analysis Platform Validated Against Finerenone Phase III Trial Data",
-    "source": "Supplied NOVELTY_WORDING_2-19.md; not independently verified",
+    "doi": null,
     "verified_live": false,
-    "resolved_url": null,
-    "title_read": null
+    "status": "Pending release DOI (allmeta release / archive); placeholder in text"
   },
   {
     "number": 4,
-    "doi": "10.18637/jss.v036.i03",
-    "expected_title": "Conducting Meta-Analyses in R with the metafor Package",
-    "source": "Supplied NOVELTY_WORDING_2-19.md; not independently verified",
+    "doi": "10.1177/1536867X20909696",
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "crossref_http": 200,
+    "resolved_url": "https://journals.sagepub.com/doi/10.1177/1536867X20909696",
+    "landing_http": 403,
+    "title_read": "Conducting sensitivity analysis for unmeasured confounding in observational studies using E-values: The evalue package",
+    "evidence": "refcheck/crossref/ + refcheck/references.json"
+  },
+  {
+    "number": 5,
+    "doi": "10.12688/f1000research.181441.1",
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "crossref_http": 200,
+    "resolved_url": "https://f1000research.com/articles/15-838/v1",
+    "landing_http": 200,
+    "title_read": "RapidMeta Cardiology: A Browser-Based Living Meta-Analysis Platform Validated Against Finerenone Phase III Trial Data",
+    "evidence": "refcheck/crossref/ + refcheck/references.json"
+  },
+  {
+    "number": 6,
+    "doi": "10.1111/biom.13197",
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "crossref_http": 200,
+    "resolved_url": "https://academic.oup.com/biometrics/article/76/3/746-752/7429123",
+    "landing_http": 403,
+    "title_read": "Optimal approximate conversions of odds ratios and hazard ratios to risk ratios",
+    "evidence": "refcheck/crossref/ + refcheck/references.json"
+  },
+  {
+    "number": 7,
+    "doi": "10.1002/1097-0258(20001130)19:22<3127::AID-SIM784>3.0.CO;2-M",
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "crossref_http": 200,
+    "resolved_url": "https://onlinelibrary.wiley.com/doi/10.1002/1097-0258(20001130)19:22%3C3127::AID-SIM784%3E3.0.CO;2-M",
+    "landing_http": 403,
+    "title_read": "A simple method for converting an odds ratio to effect size for use in meta-analysis",
+    "evidence": "refcheck/crossref/ + refcheck/references.json"
+  },
+  {
+    "number": 8,
+    "doi": null,
     "verified_live": false,
-    "resolved_url": null,
-    "title_read": null
+    "status": "Pending release DOI (allmeta release / archive); placeholder in text"
+  },
+  {
+    "number": 9,
+    "doi": "10.18637/jss.v036.i03",
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "crossref_http": 200,
+    "resolved_url": "https://www.jstatsoft.org/article/view/v036i03",
+    "landing_http": 200,
+    "title_read": "Conducting Meta-Analyses in R with the metafor Package",
+    "evidence": "refcheck/crossref/ + refcheck/references.json"
+  },
+  {
+    "number": 10,
+    "doi": null,
+    "url": "https://cran.r-project.org/package=metadat",
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "http": 200,
+    "title_read": "metadat: Meta-Analysis Datasets (version 1.6-0)",
+    "evidence": "refcheck/cran-metadat.txt"
+  },
+  {
+    "number": 11,
+    "doi": null,
+    "url": "https://cran.r-project.org/package=EValue",
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "http": 200,
+    "title_read": "EValue: Sensitivity Analyses for Unmeasured Confounding and Other Biases in Observational Studies and Meta-Analyses (version 4.1.4)",
+    "evidence": "refcheck/cran-EValue.txt"
+  },
+  {
+    "number": 12,
+    "doi": "10.1515/jci-2018-0007",
+    "verified_live": true,
+    "accessed": "2026-10-20",
+    "crossref_http": 200,
+    "resolved_url": "https://www.degruyterbrill.com/document/doi/10.1515/jci-2018-0007/html",
+    "landing_http": 202,
+    "title_read": "Technical Considerations in the Use of the E-Value",
+    "evidence": "refcheck/crossref/ + refcheck/references.json"
   }
 ]

@@ -1,0 +1,33 @@
+{
+  "pillow": "13.0.0",
+  "figure1": {
+    "mode": "RGB",
+    "size": [
+      2400,
+      1840
+    ],
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "compression_tag": 5,
+    "png_sha256": "1208e982ca7a3b98e1220e010c802f3b8290587f5ffe435813ebf69e76ef054b",
+    "tiff_sha256": "230b49919bb54d3c95908913394ed135ea8da87278a3ff98fe59e022020fe56f",
+    "pixels_equal_capture": true
+  },
+  "figure2": {
+    "mode": "RGB",
+    "size": [
+      2400,
+      1840
+    ],
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "compression_tag": 5,
+    "png_sha256": "a68f668ed495efaaa9ad4e8f540413c08696249b94edcc6ef15e70be11846da2",
+    "tiff_sha256": "9451aded5604a5b8c1fa1f4edb5ff01af64a283190df42e399b5c52e9eb03bac",
+    "pixels_equal_capture": true
+  }
+}
