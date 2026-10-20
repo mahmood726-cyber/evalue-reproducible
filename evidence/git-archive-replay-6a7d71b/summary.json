@@ -1,0 +1,9 @@
+{
+  "passed": 22428,
+  "expected": 22428,
+  "configurations": 3738,
+  "max_normalized_difference": 4.862166479269799e-15,
+  "tolerance": 1e-09,
+  "failures": [],
+  "final_line": "22428/22428 checks pass"
+}
