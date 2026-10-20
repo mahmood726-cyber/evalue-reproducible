@@ -1,0 +1,38 @@
+{
+  "R": {
+    "command": [
+      "C:\\Program Files\\R\\R-4.6.0\\bin\\Rscript.exe",
+      "--vanilla",
+      "-e",
+      "cat(R.version.string,\"\\n\"); print(.libPaths()); p<-installed.packages(); print(p[intersect(c(\"EValue\",\"metadat\",\"metafor\",\"jsonlite\"),rownames(p)),c(\"Package\",\"Version\",\"LibPath\"),drop=FALSE]); print(vapply(c(\"metadat\",\"metafor\"),function(x) as.character(packageVersion(x)),\"\"))"
+    ],
+    "exit_code": 0,
+    "output": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \nR version 4.6.0 (2026-04-24 ucrt) \n[1] \"C:/Program Files/R/R-4.6.0/library\"\n        Package   Version LibPath                             \nmetadat \"metadat\" \"1.6-0\" \"C:/Program Files/R/R-4.6.0/library\"\nmetafor \"metafor\" \"5.2-1\" \"C:/Program Files/R/R-4.6.0/library\"\nmetadat metafor \n\"1.6.0\" \"5.2.1\" \n"
+  },
+  "node": {
+    "command": [
+      "node",
+      "--version"
+    ],
+    "exit_code": 0,
+    "output": "v24.13.0\n"
+  },
+  "python": {
+    "command": [
+      "python",
+      "--version"
+    ],
+    "exit_code": 0,
+    "output": "Python 3.13.13\n"
+  },
+  "docx": {
+    "command": [
+      "node",
+      "-e",
+      "console.log(require.resolve('docx'))"
+    ],
+    "exit_code": 1,
+    "output": "node:internal/modules/cjs/loader:1424\n  throw err;\n  ^\n\nError: Cannot find module 'docx'\nRequire stack:\n- <WORKSPACE>\\[eval]\n    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)\n    at require.resolve (node:internal/modules/helpers:163:19)\n    at [eval]:1:21\n    at runScriptInThisContext (node:internal/vm:219:10)\n    at node:internal/process/execution:451:12\n    at [eval]-wrapper:6:24\n    at runScriptInContext (node:internal/process/execution:449:60)\n    at evalFunction (node:internal/process/execution:283:30)\n    at evalTypeScript (node:internal/process/execution:295:3)\n    at node:internal/main/eval_string:71:3 {\n  code: 'MODULE_NOT_FOUND',\n  requireStack: [ '<WORKSPACE>\\\\[eval]' ]\n}\n\nNode.js v24.13.0\n"
+  },
+  "PIL_available": true
+}

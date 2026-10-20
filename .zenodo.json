@@ -1,0 +1,13 @@
+{
+  "title": "allmeta E-value reproducibility archive — incomplete working draft",
+  "upload_type": "software",
+  "version": "<ALLMETA_RELEASE>",
+  "description": "Local draft only. Fresh EValue parity and publication gates incomplete. Related release DOI: <ALLMETA_RELEASE_DOI>.",
+  "creators": [
+    {
+      "name": "Mahmood Ahmad",
+      "affiliation": "Tahir Heart Institute, Rabwah, Pakistan",
+      "orcid": "0000-0001-9107-3704"
+    }
+  ]
+}

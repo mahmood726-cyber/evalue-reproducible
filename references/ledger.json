@@ -1,0 +1,38 @@
+[
+  {
+    "number": 1,
+    "doi": "10.7326/M16-2607",
+    "expected_title": "Sensitivity Analysis in Observational Research: Introducing the E-Value",
+    "source": "Archived app footer",
+    "verified_live": false,
+    "resolved_url": null,
+    "title_read": null
+  },
+  {
+    "number": 2,
+    "doi": null,
+    "expected_title": "EValue: Sensitivity Analyses for Unmeasured Confounding",
+    "source": "Package name; host must inspect installed citation('EValue') and official package page",
+    "verified_live": false,
+    "resolved_url": null,
+    "title_read": null
+  },
+  {
+    "number": 3,
+    "doi": "10.12688/f1000research.181441.1",
+    "expected_title": "RapidMeta Cardiology: A Browser-Based Living Meta-Analysis Platform Validated Against Finerenone Phase III Trial Data",
+    "source": "Supplied NOVELTY_WORDING_2-19.md; not independently verified",
+    "verified_live": false,
+    "resolved_url": null,
+    "title_read": null
+  },
+  {
+    "number": 4,
+    "doi": "10.18637/jss.v036.i03",
+    "expected_title": "Conducting Meta-Analyses in R with the metafor Package",
+    "source": "Supplied NOVELTY_WORDING_2-19.md; not independently verified",
+    "verified_live": false,
+    "resolved_url": null,
+    "title_read": null
+  }
+]

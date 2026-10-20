@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "bcg-01-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "1",
+    "measure": "RR",
+    "point": 0.410938654841094,
+    "lo": 0.134301570832589,
+    "hi": 1.25739838332279,
+    "rare": false
+  },
+  {
+    "id": "bcg-02-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "2",
+    "measure": "RR",
+    "point": 0.204868154158215,
+    "lo": 0.0862974496335646,
+    "hi": 0.486352270738137,
+    "rare": false
+  },
+  {
+    "id": "bcg-03-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "3",
+    "measure": "RR",
+    "point": 0.25974025974026,
+    "lo": 0.0734425906880758,
+    "hi": 0.918608696913673,
+    "rare": false
+  },
+  {
+    "id": "bcg-04-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "4",
+    "measure": "RR",
+    "point": 0.236560523606413,
+    "lo": 0.179280894081421,
+    "hi": 0.312140797911936,
+    "rare": false
+  },
+  {
+    "id": "bcg-05-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "5",
+    "measure": "RR",
+    "point": 0.804489533795327,
+    "lo": 0.516293127126651,
+    "hi": 1.2535580583614,
+    "rare": false
+  },
+  {
+    "id": "bcg-06-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "6",
+    "measure": "RR",
+    "point": 0.455611144836826,
+    "lo": 0.387132335327848,
+    "hi": 0.536202988891976,
+    "rare": false
+  },
+  {
+    "id": "bcg-07-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "7",
+    "measure": "RR",
+    "point": 0.197721021611002,
+    "lo": 0.0783565766814313,
+    "hi": 0.498919223409139,
+    "rare": false
+  },
+  {
+    "id": "bcg-08-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "8",
+    "measure": "RR",
+    "point": 1.01202404809619,
+    "lo": 0.894571977550142,
+    "hi": 1.14489688882256,
+    "rare": false
+  },
+  {
+    "id": "bcg-09-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "9",
+    "measure": "RR",
+    "point": 0.625366345142315,
+    "lo": 0.392576266000499,
+    "hi": 0.996196406932455,
+    "rare": false
+  },
+  {
+    "id": "bcg-10-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "10",
+    "measure": "RR",
+    "point": 0.253765465303927,
+    "lo": 0.149420943521767,
+    "hi": 0.430976474001032,
+    "rare": false
+  },
+  {
+    "id": "bcg-11-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "11",
+    "measure": "RR",
+    "point": 0.712226836059195,
+    "lo": 0.572513682986256,
+    "hi": 0.886034833887225,
+    "rare": false
+  },
+  {
+    "id": "bcg-12-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "12",
+    "measure": "RR",
+    "point": 1.56191619962637,
+    "lo": 0.373689111221834,
+    "hi": 6.52837383106692,
+    "rare": false
+  },
+  {
+    "id": "bcg-13-RR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "13",
+    "measure": "RR",
+    "point": 0.982835076874145,
+    "lo": 0.582137461533975,
+    "hi": 1.65934139642692,
+    "rare": false
+  },
+  {
+    "id": "bcg-01-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "1",
+    "measure": "OR",
+    "point": 0.391138273491215,
+    "lo": 0.121241931775345,
+    "hi": 1.26185014334124,
+    "rare": false
+  },
+  {
+    "id": "bcg-01-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "1",
+    "measure": "OR",
+    "point": 0.391138273491215,
+    "lo": 0.121241931775345,
+    "hi": 1.26185014334124,
+    "rare": true
+  },
+  {
+    "id": "bcg-02-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "2",
+    "measure": "OR",
+    "point": 0.188965517241379,
+    "lo": 0.0772772037805416,
+    "hi": 0.462076329880007,
+    "rare": false
+  },
+  {
+    "id": "bcg-02-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "2",
+    "measure": "OR",
+    "point": 0.188965517241379,
+    "lo": 0.0772772037805416,
+    "hi": 0.462076329880007,
+    "rare": true
+  },
+  {
+    "id": "bcg-03-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "3",
+    "measure": "OR",
+    "point": 0.25,
+    "lo": 0.0687953366826995,
+    "hi": 0.908491810836901,
+    "rare": false
+  },
+  {
+    "id": "bcg-03-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "3",
+    "measure": "OR",
+    "point": 0.25,
+    "lo": 0.0687953366826995,
+    "hi": 0.908491810836901,
+    "rare": true
+  },
+  {
+    "id": "bcg-04-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "4",
+    "measure": "OR",
+    "point": 0.233063682033097,
+    "lo": 0.176260097389109,
+    "hi": 0.308173436231069,
+    "rare": false
+  },
+  {
+    "id": "bcg-04-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "4",
+    "measure": "OR",
+    "point": 0.233063682033097,
+    "lo": 0.176260097389109,
+    "hi": 0.308173436231069,
+    "rare": true
+  },
+  {
+    "id": "bcg-05-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "5",
+    "measure": "OR",
+    "point": 0.803208388961182,
+    "lo": 0.513824066999396,
+    "hi": 1.25557317675892,
+    "rare": false
+  },
+  {
+    "id": "bcg-05-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "5",
+    "measure": "OR",
+    "point": 0.803208388961182,
+    "lo": 0.513824066999396,
+    "hi": 1.25557317675892,
+    "rare": true
+  },
+  {
+    "id": "bcg-06-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "6",
+    "measure": "OR",
+    "point": 0.383612618804959,
+    "lo": 0.315628986315721,
+    "hi": 0.466239311617587,
+    "rare": false
+  },
+  {
+    "id": "bcg-06-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "6",
+    "measure": "OR",
+    "point": 0.383612618804959,
+    "lo": 0.315628986315721,
+    "hi": 0.466239311617587,
+    "rare": true
+  },
+  {
+    "id": "bcg-07-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "7",
+    "measure": "OR",
+    "point": 0.195191170674024,
+    "lo": 0.0767185987999075,
+    "hi": 0.49661481967971,
+    "rare": false
+  },
+  {
+    "id": "bcg-07-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "7",
+    "measure": "OR",
+    "point": 0.195191170674024,
+    "lo": 0.0767185987999075,
+    "hi": 0.49661481967971,
+    "rare": true
+  },
+  {
+    "id": "bcg-08-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "8",
+    "measure": "OR",
+    "point": 1.01209313924027,
+    "lo": 0.89400292355056,
+    "hi": 1.14578207242216,
+    "rare": false
+  },
+  {
+    "id": "bcg-08-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "8",
+    "measure": "OR",
+    "point": 1.01209313924027,
+    "lo": 0.89400292355056,
+    "hi": 1.14578207242216,
+    "rare": true
+  },
+  {
+    "id": "bcg-09-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "9",
+    "measure": "OR",
+    "point": 0.623911944072587,
+    "lo": 0.390789152961955,
+    "hi": 0.996102657932094,
+    "rare": false
+  },
+  {
+    "id": "bcg-09-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "9",
+    "measure": "OR",
+    "point": 0.623911944072587,
+    "lo": 0.390789152961955,
+    "hi": 0.996102657932094,
+    "rare": true
+  },
+  {
+    "id": "bcg-10-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "10",
+    "measure": "OR",
+    "point": 0.24629872775841,
+    "lo": 0.143779361331104,
+    "hi": 0.421917740722973,
+    "rare": false
+  },
+  {
+    "id": "bcg-10-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "10",
+    "measure": "OR",
+    "point": 0.24629872775841,
+    "lo": 0.143779361331104,
+    "hi": 0.421917740722973,
+    "rare": true
+  },
+  {
+    "id": "bcg-11-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "11",
+    "measure": "OR",
+    "point": 0.711165826534675,
+    "lo": 0.571094562486666,
+    "hi": 0.885592099894238,
+    "rare": false
+  },
+  {
+    "id": "bcg-11-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "11",
+    "measure": "OR",
+    "point": 0.711165826534675,
+    "lo": 0.571094562486666,
+    "hi": 0.885592099894238,
+    "rare": true
+  },
+  {
+    "id": "bcg-12-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "12",
+    "measure": "OR",
+    "point": 1.56304318759192,
+    "lo": 0.37312849929957,
+    "hi": 6.54762102295502,
+    "rare": false
+  },
+  {
+    "id": "bcg-12-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "12",
+    "measure": "OR",
+    "point": 1.56304318759192,
+    "lo": 0.37312849929957,
+    "hi": 6.54762102295502,
+    "rare": true
+  },
+  {
+    "id": "bcg-13-OR-FALSE",
+    "dataset": "metadat::dat.bcg",
+    "row": "13",
+    "measure": "OR",
+    "point": 0.98280763088786,
+    "lo": 0.581629815589925,
+    "hi": 1.66069691312458,
+    "rare": false
+  },
+  {
+    "id": "bcg-13-OR-TRUE",
+    "dataset": "metadat::dat.bcg",
+    "row": "13",
+    "measure": "OR",
+    "point": 0.98280763088786,
+    "lo": 0.581629815589925,
+    "hi": 1.66069691312458,
+    "rare": true
+  },
+  {
+    "id": "normand-01-SMD",
+    "dataset": "metadat::dat.normand1999",
+    "row": "1",
+    "measure": "SMD",
+    "point": -0.355169640940107,
+    "lo": -0.57919511515792,
+    "hi": -0.131144166722294,
+    "rare": false
+  },
+  {
+    "id": "normand-02-SMD",
+    "dataset": "metadat::dat.normand1999",
+    "row": "2",
+    "measure": "SMD",
+    "point": -0.347940022739099,
+    "lo": -0.845589028314504,
+    "hi": 0.149708982836307,
+    "rare": false
+  },
+  {
+    "id": "normand-03-SMD",
+    "dataset": "metadat::dat.normand1999",
+    "row": "3",
+    "measure": "SMD",
+    "point": -2.31756916016373,
+    "lo": -2.73707522106205,
+    "hi": -1.89806309926542,
+    "rare": false
+  },
+  {
+    "id": "normand-04-SMD",
+    "dataset": "metadat::dat.normand1999",
+    "row": "4",
+    "measure": "SMD",
+    "point": -1.88798225293685,
+    "lo": -2.67347981402277,
+    "hi": -1.10248469185092,
+    "rare": false
+  },
+  {
+    "id": "normand-05-SMD",
+    "dataset": "metadat::dat.normand1999",
+    "row": "5",
+    "measure": "SMD",
+    "point": -0.383964141169701,
+    "lo": -1.27231287862809,
+    "hi": 0.504384596288692,
+    "rare": false
+  },
+  {
+    "id": "normand-06-SMD",
+    "dataset": "metadat::dat.normand1999",
+    "row": "6",
+    "measure": "SMD",
+    "point": 0.172148669069591,
+    "lo": -0.204402037615097,
+    "hi": 0.548699375754279,
+    "rare": false
+  },
+  {
+    "id": "normand-07-SMD",
+    "dataset": "metadat::dat.normand1999",
+    "row": "7",
+    "measure": "SMD",
+    "point": 0.272052073852932,
+    "lo": -0.209106613216362,
+    "hi": 0.753210760922226,
+    "rare": false
+  },
+  {
+    "id": "normand-08-SMD",
+    "dataset": "metadat::dat.normand1999",
+    "row": "8",
+    "measure": "SMD",
+    "point": -0.424596271894261,
+    "lo": -0.663543441867586,
+    "hi": -0.185649101920936,
+    "rare": false
+  },
+  {
+    "id": "normand-09-SMD",
+    "dataset": "metadat::dat.normand1999",
+    "row": "9",
+    "measure": "SMD",
+    "point": 0.289556230080755,
+    "lo": -0.0837216464714604,
+    "hi": 0.662834106632971,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-0.2-False-True",
+    "measure": "RR",
+    "point": 0.2,
+    "lo": 0.13333333333333333,
+    "hi": 0.30000000000000004,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-0.2-False-False",
+    "measure": "RR",
+    "point": 0.2,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-0.6-False-True",
+    "measure": "RR",
+    "point": 0.6,
+    "lo": 0.39999999999999997,
+    "hi": 0.8999999999999999,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-0.6-False-False",
+    "measure": "RR",
+    "point": 0.6,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-1-False-True",
+    "measure": "RR",
+    "point": 1,
+    "lo": 0.6666666666666666,
+    "hi": 1.5,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-1-False-False",
+    "measure": "RR",
+    "point": 1,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-1.6-False-True",
+    "measure": "RR",
+    "point": 1.6,
+    "lo": 1.0666666666666667,
+    "hi": 2.4000000000000004,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-1.6-False-False",
+    "measure": "RR",
+    "point": 1.6,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-2-False-True",
+    "measure": "RR",
+    "point": 2,
+    "lo": 1.3333333333333333,
+    "hi": 3.0,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-2-False-False",
+    "measure": "RR",
+    "point": 2,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-10-False-True",
+    "measure": "RR",
+    "point": 10,
+    "lo": 6.666666666666667,
+    "hi": 15.0,
+    "rare": false
+  },
+  {
+    "id": "grid-RR-10-False-False",
+    "measure": "RR",
+    "point": 10,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-0.2-False-True",
+    "measure": "OR",
+    "point": 0.2,
+    "lo": 0.13333333333333333,
+    "hi": 0.30000000000000004,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-0.2-False-False",
+    "measure": "OR",
+    "point": 0.2,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-0.2-True-True",
+    "measure": "OR",
+    "point": 0.2,
+    "lo": 0.13333333333333333,
+    "hi": 0.30000000000000004,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-0.2-True-False",
+    "measure": "OR",
+    "point": 0.2,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-0.6-False-True",
+    "measure": "OR",
+    "point": 0.6,
+    "lo": 0.39999999999999997,
+    "hi": 0.8999999999999999,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-0.6-False-False",
+    "measure": "OR",
+    "point": 0.6,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-0.6-True-True",
+    "measure": "OR",
+    "point": 0.6,
+    "lo": 0.39999999999999997,
+    "hi": 0.8999999999999999,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-0.6-True-False",
+    "measure": "OR",
+    "point": 0.6,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-1-False-True",
+    "measure": "OR",
+    "point": 1,
+    "lo": 0.6666666666666666,
+    "hi": 1.5,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-1-False-False",
+    "measure": "OR",
+    "point": 1,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-1-True-True",
+    "measure": "OR",
+    "point": 1,
+    "lo": 0.6666666666666666,
+    "hi": 1.5,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-1-True-False",
+    "measure": "OR",
+    "point": 1,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-1.6-False-True",
+    "measure": "OR",
+    "point": 1.6,
+    "lo": 1.0666666666666667,
+    "hi": 2.4000000000000004,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-1.6-False-False",
+    "measure": "OR",
+    "point": 1.6,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-1.6-True-True",
+    "measure": "OR",
+    "point": 1.6,
+    "lo": 1.0666666666666667,
+    "hi": 2.4000000000000004,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-1.6-True-False",
+    "measure": "OR",
+    "point": 1.6,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-2-False-True",
+    "measure": "OR",
+    "point": 2,
+    "lo": 1.3333333333333333,
+    "hi": 3.0,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-2-False-False",
+    "measure": "OR",
+    "point": 2,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-2-True-True",
+    "measure": "OR",
+    "point": 2,
+    "lo": 1.3333333333333333,
+    "hi": 3.0,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-2-True-False",
+    "measure": "OR",
+    "point": 2,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-10-False-True",
+    "measure": "OR",
+    "point": 10,
+    "lo": 6.666666666666667,
+    "hi": 15.0,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-10-False-False",
+    "measure": "OR",
+    "point": 10,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-OR-10-True-True",
+    "measure": "OR",
+    "point": 10,
+    "lo": 6.666666666666667,
+    "hi": 15.0,
+    "rare": true
+  },
+  {
+    "id": "grid-OR-10-True-False",
+    "measure": "OR",
+    "point": 10,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-0.2-False-True",
+    "measure": "HR",
+    "point": 0.2,
+    "lo": 0.13333333333333333,
+    "hi": 0.30000000000000004,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-0.2-False-False",
+    "measure": "HR",
+    "point": 0.2,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-0.2-True-True",
+    "measure": "HR",
+    "point": 0.2,
+    "lo": 0.13333333333333333,
+    "hi": 0.30000000000000004,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-0.2-True-False",
+    "measure": "HR",
+    "point": 0.2,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-0.6-False-True",
+    "measure": "HR",
+    "point": 0.6,
+    "lo": 0.39999999999999997,
+    "hi": 0.8999999999999999,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-0.6-False-False",
+    "measure": "HR",
+    "point": 0.6,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-0.6-True-True",
+    "measure": "HR",
+    "point": 0.6,
+    "lo": 0.39999999999999997,
+    "hi": 0.8999999999999999,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-0.6-True-False",
+    "measure": "HR",
+    "point": 0.6,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-1-False-True",
+    "measure": "HR",
+    "point": 1,
+    "lo": 0.6666666666666666,
+    "hi": 1.5,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-1-False-False",
+    "measure": "HR",
+    "point": 1,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-1-True-True",
+    "measure": "HR",
+    "point": 1,
+    "lo": 0.6666666666666666,
+    "hi": 1.5,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-1-True-False",
+    "measure": "HR",
+    "point": 1,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-1.6-False-True",
+    "measure": "HR",
+    "point": 1.6,
+    "lo": 1.0666666666666667,
+    "hi": 2.4000000000000004,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-1.6-False-False",
+    "measure": "HR",
+    "point": 1.6,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-1.6-True-True",
+    "measure": "HR",
+    "point": 1.6,
+    "lo": 1.0666666666666667,
+    "hi": 2.4000000000000004,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-1.6-True-False",
+    "measure": "HR",
+    "point": 1.6,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-2-False-True",
+    "measure": "HR",
+    "point": 2,
+    "lo": 1.3333333333333333,
+    "hi": 3.0,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-2-False-False",
+    "measure": "HR",
+    "point": 2,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-2-True-True",
+    "measure": "HR",
+    "point": 2,
+    "lo": 1.3333333333333333,
+    "hi": 3.0,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-2-True-False",
+    "measure": "HR",
+    "point": 2,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-10-False-True",
+    "measure": "HR",
+    "point": 10,
+    "lo": 6.666666666666667,
+    "hi": 15.0,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-10-False-False",
+    "measure": "HR",
+    "point": 10,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-HR-10-True-True",
+    "measure": "HR",
+    "point": 10,
+    "lo": 6.666666666666667,
+    "hi": 15.0,
+    "rare": true
+  },
+  {
+    "id": "grid-HR-10-True-False",
+    "measure": "HR",
+    "point": 10,
+    "lo": null,
+    "hi": null,
+    "rare": true
+  },
+  {
+    "id": "grid-SMD--2-False-True",
+    "measure": "SMD",
+    "point": -2,
+    "lo": -2.2,
+    "hi": -1.8,
+    "rare": false
+  },
+  {
+    "id": "grid-SMD--2-False-False",
+    "measure": "SMD",
+    "point": -2,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-SMD--0.5-False-True",
+    "measure": "SMD",
+    "point": -0.5,
+    "lo": -0.7,
+    "hi": -0.3,
+    "rare": false
+  },
+  {
+    "id": "grid-SMD--0.5-False-False",
+    "measure": "SMD",
+    "point": -0.5,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-SMD-0-False-True",
+    "measure": "SMD",
+    "point": 0,
+    "lo": -0.2,
+    "hi": 0.2,
+    "rare": false
+  },
+  {
+    "id": "grid-SMD-0-False-False",
+    "measure": "SMD",
+    "point": 0,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-SMD-0.5-False-True",
+    "measure": "SMD",
+    "point": 0.5,
+    "lo": 0.3,
+    "hi": 0.7,
+    "rare": false
+  },
+  {
+    "id": "grid-SMD-0.5-False-False",
+    "measure": "SMD",
+    "point": 0.5,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "grid-SMD-2-False-True",
+    "measure": "SMD",
+    "point": 2,
+    "lo": 1.8,
+    "hi": 2.2,
+    "rare": false
+  },
+  {
+    "id": "grid-SMD-2-False-False",
+    "measure": "SMD",
+    "point": 2,
+    "lo": null,
+    "hi": null,
+    "rare": false
+  },
+  {
+    "id": "cross-rr",
+    "measure": "RR",
+    "point": 1,
+    "lo": 0.5,
+    "hi": 2,
+    "rare": false
+  },
+  {
+    "id": "cross-smd",
+    "measure": "SMD",
+    "point": 0,
+    "lo": -1,
+    "hi": 1,
+    "rare": false
+  },
+  {
+    "id": "degenerate",
+    "measure": "RR",
+    "point": 2,
+    "lo": 2,
+    "hi": 2,
+    "rare": false
+  }
+]

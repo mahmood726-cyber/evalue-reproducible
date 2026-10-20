@@ -1,0 +1,9 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Warning message:
+One or more SMD values are unusually large (i.e., abs(yi) > 2).
+Maybe SEs were used in place of SDs to compute them? 
+48 real-data configurations generated; these are inputs, not EValue validation results

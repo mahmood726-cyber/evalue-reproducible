@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Incomplete local draft; do not cite as a validated release."
+title: "allmeta E-value reproducibility archive"
+type: software
+version: "<ALLMETA_RELEASE>"
+# Related allmeta release DOI: <ALLMETA_RELEASE_DOI>
+authors:
+  - family-names: "Ahmad"
+    given-names: "Mahmood"
+    affiliation: "Tahir Heart Institute, Rabwah, Pakistan"
+    orcid: "https://orcid.org/0000-0001-9107-3704"

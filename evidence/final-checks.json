@@ -1,0 +1,31 @@
+{
+  "version_mutant": {
+    "exit_code": 0,
+    "output": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \nVersion gate failed: expected R 0.0.0; actual R 4.6.0 \nWrong-version mutation rejected\n"
+  },
+  "full_validator": {
+    "exit_code": 1,
+    "output": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \nError: Version gate failed: expected R 4.6.0; EValue 4.1.4; metadat 1.6.0; metafor 5.2.1; actual R 4.6.0; EValue MISSING; metadat 1.6.0; metafor 5.2.1\nExecution halted\n"
+  },
+  "existing_tests": {
+    "exit_code": 0,
+    "output": ".......                                                                  [100%]\n7 passed in 0.11s\n"
+  },
+  "filesystem_copy_hashes": 55,
+  "hash_tamper_rejected": "Hash mismatch: app-original/shared/evalue.js",
+  "extra_file_rejected": "Archive inventory mismatch",
+  "fresh_corpus_filesystem_copy": {
+    "exit_code": 0,
+    "output": "During startup - Warning messages:\n1: Setting LC_COLLATE=C.UTF-8 failed \n2: Setting LC_CTYPE=C.UTF-8 failed \n3: Setting LC_MONETARY=C.UTF-8 failed \n4: Setting LC_TIME=C.UTF-8 failed \nWarning message:\nOne or more SMD values are unusually large (i.e., abs(yi) > 2).\nMaybe SEs were used in place of SDs to compute them? \n48 real-data configurations generated; these are inputs, not EValue validation results\n"
+  },
+  "filesystem_copy_fixture_replay": {
+    "passed": 78,
+    "expected": 78,
+    "configurations": 13,
+    "max_normalized_difference": 0.0,
+    "tolerance": 1e-09,
+    "failures": [],
+    "final_line": "78/78 checks pass"
+  },
+  "git_archive_replay": "NOT RUN; filesystem copy is not equivalent provenance"
+}

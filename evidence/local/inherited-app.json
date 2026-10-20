@@ -1,0 +1,166 @@
+{
+  "runtime": "v24.13.0",
+  "scripts": [
+    {
+      "file": "../shared/build-info.js",
+      "sha256": "5e830962d74b2a8ab4d2cbf1a822976e78cc0c29db5cda1e45acc052f981b333"
+    },
+    {
+      "file": "../shared/evalue.js",
+      "sha256": "c9a4db8ce19358f511c560eb196426e4573b5fae92bcc2e1a5aa84f0a2a73136"
+    },
+    {
+      "file": "inline-2",
+      "sha256": "264bf71c5131096ff231891e9ba09e832b0625b59f55c06785bb872ac7f6fc4e"
+    },
+    {
+      "file": "../hub/shared/a11y-landmarks.js",
+      "sha256": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2"
+    }
+  ],
+  "rows": [
+    {
+      "id": "rr-harmful",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": 2.3660254037844384,
+        "rr_point": 2,
+        "rr_lo": 1.5,
+        "rr_hi": 2.7
+      }
+    },
+    {
+      "id": "rr-protective",
+      "accepted": true,
+      "values": {
+        "point": 2.7207592200561264,
+        "ci": 1.4624752955742646,
+        "rr_point": 0.6,
+        "rr_lo": 0.4,
+        "rr_hi": 0.9
+      }
+    },
+    {
+      "id": "rr-null",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": 1,
+        "rr_point": 1,
+        "rr_lo": 1,
+        "rr_hi": 1
+      }
+    },
+    {
+      "id": "rr-crossing",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": 1,
+        "rr_point": 2,
+        "rr_lo": 0.9,
+        "rr_hi": 3
+      }
+    },
+    {
+      "id": "rr-missing-ci",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": null,
+        "rr_point": 2,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "rr-near-null",
+      "accepted": true,
+      "values": {
+        "point": 1.0010010004999585,
+        "ci": 1,
+        "rr_point": 1.000001,
+        "rr_lo": 1,
+        "rr_hi": 1.000002
+      }
+    },
+    {
+      "id": "rr-large",
+      "accepted": true,
+      "values": {
+        "point": 199.49874371066198,
+        "ci": 39.49358868961792,
+        "rr_point": 100,
+        "rr_lo": 20,
+        "rr_hi": 200
+      }
+    },
+    {
+      "id": "or-common",
+      "accepted": true,
+      "values": {
+        "point": 2.179580427103275,
+        "ci": 1.749392494666879,
+        "rr_point": 1.4142135623730951,
+        "rr_lo": 1.224744871391589,
+        "rr_hi": 1.6431676725154984
+      }
+    },
+    {
+      "id": "or-rare",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": 2.3660254037844384,
+        "rr_point": 2,
+        "rr_lo": 1.5,
+        "rr_hi": 2.7
+      }
+    },
+    {
+      "id": "or-protective",
+      "accepted": true,
+      "values": {
+        "point": 1.9039155023233463,
+        "ci": 1.292878142824106,
+        "rr_point": 0.7745966692414834,
+        "rr_lo": 0.6324555320336759,
+        "rr_hi": 0.9486832980505138
+      }
+    },
+    {
+      "id": "hr-common",
+      "accepted": true,
+      "values": {
+        "point": 2.1129439278880713,
+        "ci": 1.5255309175787344,
+        "rr_point": 1.3839700082583661,
+        "rr_lo": 1.134653544128738,
+        "rr_hi": 1.6670240587123641
+      }
+    },
+    {
+      "id": "hr-rare",
+      "accepted": true,
+      "values": {
+        "point": 2.5797958971132715,
+        "ci": 1.6898979485566354,
+        "rr_point": 1.6,
+        "rr_lo": 1.2,
+        "rr_hi": 2.1
+      }
+    },
+    {
+      "id": "hr-protective",
+      "accepted": true,
+      "values": {
+        "point": 2.199622395659878,
+        "ci": 1.3612206313389328,
+        "rr_point": 0.7025644572836847,
+        "rr_lo": 0.5330910863453358,
+        "rr_hi": 0.9295812925926836
+      }
+    }
+  ]
+}

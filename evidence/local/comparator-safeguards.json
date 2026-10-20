@@ -1,0 +1,38 @@
+{
+  "relative-1e-8": {
+    "rejected": true,
+    "reason": {
+      "passed": 77,
+      "expected": 78,
+      "configurations": 13,
+      "max_normalized_difference": 1.0000000047302322e-08,
+      "tolerance": 1e-09,
+      "failures": [
+        "rr-harmful:point"
+      ],
+      "final_line": "77/78 checks pass"
+    }
+  },
+  "dropped-configuration": {
+    "rejected": true,
+    "reason": "Configuration mismatch: missing=['hr-protective'], extra=[]"
+  },
+  "duplicate-id": {
+    "rejected": true,
+    "reason": "Schema mismatch or duplicate ID"
+  },
+  "nonfinite": {
+    "rejected": true,
+    "reason": {
+      "passed": 77,
+      "expected": 78,
+      "configurations": 13,
+      "max_normalized_difference": 0.0,
+      "tolerance": 1e-09,
+      "failures": [
+        "rr-harmful:point"
+      ],
+      "final_line": "77/78 checks pass"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": 26,
+  "expected": 26,
+  "configurations": 13,
+  "max_normalized_difference": 0.0,
+  "tolerance": 1e-09,
+  "failures": [],
+  "final_line": "26/26 checks pass"
+}

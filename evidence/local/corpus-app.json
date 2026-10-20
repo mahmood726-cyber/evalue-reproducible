@@ -1,0 +1,1354 @@
+{
+  "runtime": "v24.13.0",
+  "scripts": [
+    {
+      "file": "../shared/build-info.js",
+      "sha256": "5e830962d74b2a8ab4d2cbf1a822976e78cc0c29db5cda1e45acc052f981b333"
+    },
+    {
+      "file": "../shared/evalue.js",
+      "sha256": "c9a4db8ce19358f511c560eb196426e4573b5fae92bcc2e1a5aa84f0a2a73136"
+    },
+    {
+      "file": "inline-2",
+      "sha256": "264bf71c5131096ff231891e9ba09e832b0625b59f55c06785bb872ac7f6fc4e"
+    },
+    {
+      "file": "../hub/shared/a11y-landmarks.js",
+      "sha256": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2"
+    }
+  ],
+  "rows": [
+    {
+      "id": "bcg-01-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 4.301136674519124,
+        "ci": 1,
+        "rr_point": 0.410938654841094,
+        "rr_lo": 0.134301570832589,
+        "rr_hi": 1.25739838332279
+      }
+    },
+    {
+      "id": "bcg-02-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 9.233751654524877,
+        "ci": 3.5297300270705807,
+        "rr_point": 0.204868154158215,
+        "rr_lo": 0.0862974496335646,
+        "rr_hi": 0.486352270738137
+      }
+    },
+    {
+      "id": "bcg-03-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 7.162476415010369,
+        "ci": 1.3991720467393742,
+        "rr_point": 0.25974025974026,
+        "rr_lo": 0.0734425906880758,
+        "rr_hi": 0.918608696913673
+      }
+    },
+    {
+      "id": "bcg-04-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 7.920806938889226,
+        "ci": 5.860729480253569,
+        "rr_point": 0.236560523606413,
+        "rr_lo": 0.179280894081421,
+        "rr_hi": 0.312140797911936
+      }
+    },
+    {
+      "id": "bcg-05-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 1.792646882434642,
+        "ci": 1,
+        "rr_point": 0.804489533795327,
+        "rr_lo": 0.516293127126651,
+        "rr_hi": 1.2535580583614
+      }
+    },
+    {
+      "id": "bcg-06-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 3.8142770147056595,
+        "ci": 3.1350560779868175,
+        "rr_point": 0.455611144836826,
+        "rr_lo": 0.387132335327848,
+        "rr_hi": 0.536202988891976
+      }
+    },
+    {
+      "id": "bcg-07-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 9.587752769957667,
+        "ci": 3.4231404864312798,
+        "rr_point": 0.197721021611002,
+        "rr_lo": 0.0783565766814313,
+        "rr_hi": 0.498919223409139
+      }
+    },
+    {
+      "id": "bcg-08-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 1.1223355426414523,
+        "ci": 1,
+        "rr_point": 1.01202404809619,
+        "rr_lo": 0.894571977550142,
+        "rr_hi": 1.14489688882256
+      }
+    },
+    {
+      "id": "bcg-09-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 2.577806202032012,
+        "ci": 1.0657268680973582,
+        "rr_point": 0.625366345142315,
+        "rr_lo": 0.392576266000499,
+        "rr_hi": 0.996196406932455
+      }
+    },
+    {
+      "id": "bcg-10-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 7.3447688146856835,
+        "ci": 4.070608458825019,
+        "rr_point": 0.253765465303927,
+        "rr_lo": 0.149420943521767,
+        "rr_hi": 0.430976474001032
+      }
+    },
+    {
+      "id": "bcg-11-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 2.1572409984580174,
+        "ci": 1.5096328278406794,
+        "rr_point": 0.712226836059195,
+        "rr_lo": 0.572513682986256,
+        "rr_hi": 0.886034833887225
+      }
+    },
+    {
+      "id": "bcg-12-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 2.4987545074623125,
+        "ci": 1,
+        "rr_point": 1.56191619962637,
+        "rr_lo": 0.373689111221834,
+        "rr_hi": 6.52837383106692
+      }
+    },
+    {
+      "id": "bcg-13-RR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 1.1507678139696231,
+        "ci": 1,
+        "rr_point": 0.982835076874145,
+        "rr_lo": 0.582137461533975,
+        "rr_hi": 1.65934139642692
+      }
+    },
+    {
+      "id": "bcg-01-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 2.57756661648933,
+        "ci": 1,
+        "rr_point": 0.6254104839952837,
+        "rr_lo": 0.34819812144143597,
+        "rr_hi": 1.123321033071686
+      }
+    },
+    {
+      "id": "bcg-01-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 4.551576879721031,
+        "ci": 1,
+        "rr_point": 0.391138273491215,
+        "rr_lo": 0.121241931775345,
+        "rr_hi": 1.26185014334124
+      }
+    },
+    {
+      "id": "bcg-02-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 4.030035983212187,
+        "ci": 2.3035942870386905,
+        "rr_point": 0.4347016416363976,
+        "rr_lo": 0.2779877763149697,
+        "rr_hi": 0.6797619656026711
+      }
+    },
+    {
+      "id": "bcg-02-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 10.057784917636639,
+        "ci": 3.751399252780425,
+        "rr_point": 0.188965517241379,
+        "rr_lo": 0.0772772037805416,
+        "rr_hi": 0.462076329880007
+      }
+    },
+    {
+      "id": "bcg-03-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": 1.2762466160286914,
+        "rr_point": 0.5,
+        "rr_lo": 0.26228865145617625,
+        "rr_hi": 0.9531483676935617
+      }
+    },
+    {
+      "id": "bcg-03-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 7.464101615137754,
+        "ci": 1.433698344524887,
+        "rr_point": 0.25,
+        "rr_lo": 0.0687953366826995,
+        "rr_hi": 0.908491810836901
+      }
+    },
+    {
+      "id": "bcg-04-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 3.561118352929327,
+        "ci": 3.0028494845694746,
+        "rr_point": 0.48276669524015114,
+        "rr_lo": 0.41983341623685577,
+        "rr_hi": 0.5551337102276073
+      }
+    },
+    {
+      "id": "bcg-04-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 8.04822522159733,
+        "ci": 5.9439293153259944,
+        "rr_point": 0.233063682033097,
+        "rr_lo": 0.176260097389109,
+        "rr_hi": 0.308173436231069
+      }
+    },
+    {
+      "id": "bcg-05-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 1.475254113808234,
+        "ci": 1,
+        "rr_point": 0.8962189403048688,
+        "rr_lo": 0.716815225144804,
+        "rr_hi": 1.120523617224965
+      }
+    },
+    {
+      "id": "bcg-05-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 1.7973069316833632,
+        "ci": 1,
+        "rr_point": 0.803208388961182,
+        "rr_lo": 0.513824066999396,
+        "rr_hi": 1.25557317675892
+      }
+    },
+    {
+      "id": "bcg-06-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 2.610669475999128,
+        "ci": 2.2893241166223675,
+        "rr_point": 0.6193646896659181,
+        "rr_lo": 0.5618086741193313,
+        "rr_hi": 0.6828171875528523
+      }
+    },
+    {
+      "id": "bcg-06-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 4.6534012000468925,
+        "ci": 3.7118047140805617,
+        "rr_point": 0.383612618804959,
+        "rr_lo": 0.315628986315721,
+        "rr_hi": 0.466239311617587
+      }
+    },
+    {
+      "id": "bcg-07-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 3.95452074519321,
+        "ci": 2.1901334401023598,
+        "rr_point": 0.4418044484543179,
+        "rr_lo": 0.27698122463428365,
+        "rr_hi": 0.7047090319271564
+      }
+    },
+    {
+      "id": "bcg-07-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 9.71924792560068,
+        "ci": 3.442298456539345,
+        "rr_point": 0.195191170674024,
+        "rr_lo": 0.0767185987999075,
+        "rr_hi": 0.49661481967971
+      }
+    },
+    {
+      "id": "bcg-08-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 1.0839048420935575,
+        "ci": 1,
+        "rr_point": 1.0060283988239447,
+        "rr_lo": 0.9455172782929776,
+        "rr_hi": 1.070412104015159
+      }
+    },
+    {
+      "id": "bcg-08-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 1.1227248853936884,
+        "ci": 1,
+        "rr_point": 1.01209313924027,
+        "rr_lo": 0.89400292355056,
+        "rr_hi": 1.14578207242216
+      }
+    },
+    {
+      "id": "bcg-09-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 1.8463382254753693,
+        "ci": 1.046205997949312,
+        "rr_point": 0.7898809682936961,
+        "rr_lo": 0.6251313085760103,
+        "rr_hi": 0.9980494265977482
+      }
+    },
+    {
+      "id": "bcg-09-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 2.585717746687373,
+        "ci": 1.0665855445809322,
+        "rr_point": 0.623911944072587,
+        "rr_lo": 0.390789152961955,
+        "rr_hi": 0.996102657932094
+      }
+    },
+    {
+      "id": "bcg-10-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 3.4450550159435283,
+        "ci": 2.4508994483730957,
+        "rr_point": 0.49628492598346163,
+        "rr_lo": 0.37918249080238925,
+        "rr_hi": 0.6495519538289243
+      }
+    },
+    {
+      "id": "bcg-10-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 7.584934446650993,
+        "ci": 4.172181066918683,
+        "rr_point": 0.24629872775841,
+        "rr_lo": 0.143779361331104,
+        "rr_hi": 0.421917740722973
+      }
+    },
+    {
+      "id": "bcg-11-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 1.6552052471521055,
+        "ci": 1.3206159987517596,
+        "rr_point": 0.8433064843428366,
+        "rr_lo": 0.7557079875763296,
+        "rr_hi": 0.9410590310359058
+      }
+    },
+    {
+      "id": "bcg-11-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 2.1618487426061552,
+        "ci": 1.5111272661986566,
+        "rr_point": 0.711165826534675,
+        "rr_lo": 0.571094562486666,
+        "rr_hi": 0.885592099894238
+      }
+    },
+    {
+      "id": "bcg-12-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 1.8095256964963902,
+        "ci": 1,
+        "rr_point": 1.250217256156673,
+        "rr_lo": 0.6108424504727631,
+        "rr_hi": 2.5588319645797415
+      }
+    },
+    {
+      "id": "bcg-12-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 2.5011587554648713,
+        "ci": 1,
+        "rr_point": 1.56304318759192,
+        "rr_lo": 0.37312849929957,
+        "rr_hi": 6.54762102295502
+      }
+    },
+    {
+      "id": "bcg-13-OR-FALSE",
+      "accepted": true,
+      "values": {
+        "point": 1.1024341889043892,
+        "ci": 1,
+        "rr_point": 0.9913665471902207,
+        "rr_lo": 0.7626465862966444,
+        "rr_hi": 1.2886802990364135
+      }
+    },
+    {
+      "id": "bcg-13-OR-TRUE",
+      "accepted": true,
+      "values": {
+        "point": 1.1509064838553282,
+        "ci": 1,
+        "rr_point": 0.98280763088786,
+        "rr_lo": 0.581629815589925,
+        "rr_hi": 1.66069691312458
+      }
+    },
+    {
+      "id": "normand-01-SMD",
+      "accepted": true,
+      "values": {
+        "point": 2.107582314887569,
+        "ci": 1.5046708733082257,
+        "rr_point": 0.7238259085929979,
+        "rr_lo": 0.590333554751886,
+        "rr_hi": 0.8875049397635569
+      }
+    },
+    {
+      "id": "normand-02-SMD",
+      "accepted": true,
+      "values": {
+        "point": 2.0874960310890653,
+        "ci": 1,
+        "rr_point": 0.7286036238578292,
+        "rr_lo": 0.46325111089821186,
+        "rr_hi": 1.145951360309648
+      }
+    },
+    {
+      "id": "normand-03-SMD",
+      "accepted": true,
+      "values": {
+        "point": 15.963628545802909,
+        "ci": 10.725737199140696,
+        "rr_point": 0.12136072915647668,
+        "rr_lo": 0.08284876421390236,
+        "rr_hi": 0.1777748494034877
+      }
+    },
+    {
+      "id": "normand-04-SMD",
+      "accepted": true,
+      "values": {
+        "point": 10.6227560505403,
+        "ci": 4.897470747113252,
+        "rr_point": 0.1794131826500917,
+        "rr_lo": 0.08778482486912115,
+        "rr_hi": 0.3666817147112425
+      }
+    },
+    {
+      "id": "normand-05-SMD",
+      "accepted": true,
+      "values": {
+        "point": 2.1883829543147586,
+        "ci": 1,
+        "rr_point": 0.7051058338753768,
+        "rr_lo": 0.3141751269045345,
+        "rr_hi": 1.582474850455505
+      }
+    },
+    {
+      "id": "normand-06-SMD",
+      "accepted": true,
+      "values": {
+        "point": 1.6149618215519057,
+        "ci": 1,
+        "rr_point": 1.1695923728760753,
+        "rr_lo": 0.8302687343837896,
+        "rr_hi": 1.647594642601053
+      }
+    },
+    {
+      "id": "normand-07-SMD",
+      "accepted": true,
+      "values": {
+        "point": 1.880750385211452,
+        "ci": 1,
+        "rr_point": 1.2809056761303474,
+        "rr_lo": 0.8267218158233381,
+        "rr_hi": 1.9846087519886464
+      }
+    },
+    {
+      "id": "normand-08-SMD",
+      "accepted": true,
+      "values": {
+        "point": 2.3047737332763196,
+        "ci": 1.650873497174873,
+        "rr_point": 0.6795104901796593,
+        "rr_lo": 0.5467166970096548,
+        "rr_hi": 0.8445589988191761
+      }
+    },
+    {
+      "id": "normand-09-SMD",
+      "accepted": true,
+      "values": {
+        "point": 1.9278570657255605,
+        "ci": 1,
+        "rr_point": 1.3014723094777607,
+        "rr_lo": 0.9266431877110374,
+        "rr_hi": 1.8279206007238007
+      }
+    },
+    {
+      "id": "grid-RR-0.2-False-True",
+      "accepted": true,
+      "values": {
+        "point": 9.47213595499958,
+        "ci": 6.122200088446918,
+        "rr_point": 0.2,
+        "rr_lo": 0.13333333333333333,
+        "rr_hi": 0.30000000000000004
+      }
+    },
+    {
+      "id": "grid-RR-0.2-False-False",
+      "accepted": true,
+      "values": {
+        "point": 9.47213595499958,
+        "ci": null,
+        "rr_point": 0.2,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-RR-0.6-False-True",
+      "accepted": true,
+      "values": {
+        "point": 2.7207592200561264,
+        "ci": 1.4624752955742646,
+        "rr_point": 0.6,
+        "rr_lo": 0.39999999999999997,
+        "rr_hi": 0.8999999999999999
+      }
+    },
+    {
+      "id": "grid-RR-0.6-False-False",
+      "accepted": true,
+      "values": {
+        "point": 2.7207592200561264,
+        "ci": null,
+        "rr_point": 0.6,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-RR-1-False-True",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": 1,
+        "rr_point": 1,
+        "rr_lo": 0.6666666666666666,
+        "rr_hi": 1.5
+      }
+    },
+    {
+      "id": "grid-RR-1-False-False",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": null,
+        "rr_point": 1,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-RR-1.6-False-True",
+      "accepted": true,
+      "values": {
+        "point": 2.5797958971132715,
+        "ci": 1.3333333333333333,
+        "rr_point": 1.6,
+        "rr_lo": 1.0666666666666667,
+        "rr_hi": 2.4000000000000004
+      }
+    },
+    {
+      "id": "grid-RR-1.6-False-False",
+      "accepted": true,
+      "values": {
+        "point": 2.5797958971132715,
+        "ci": null,
+        "rr_point": 1.6,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-RR-2-False-True",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": 1.9999999999999998,
+        "rr_point": 2,
+        "rr_lo": 1.3333333333333333,
+        "rr_hi": 3
+      }
+    },
+    {
+      "id": "grid-RR-2-False-False",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": null,
+        "rr_point": 2,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-RR-10-False-True",
+      "accepted": true,
+      "values": {
+        "point": 19.486832980505138,
+        "ci": 12.813029638195259,
+        "rr_point": 10,
+        "rr_lo": 6.666666666666667,
+        "rr_hi": 15
+      }
+    },
+    {
+      "id": "grid-RR-10-False-False",
+      "accepted": true,
+      "values": {
+        "point": 19.486832980505138,
+        "ci": null,
+        "rr_point": 10,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-0.2-False-True",
+      "accepted": true,
+      "values": {
+        "point": 3.898575728609604,
+        "ci": 3.053582025059063,
+        "rr_point": 0.4472135954999579,
+        "rr_lo": 0.3651483716701107,
+        "rr_hi": 0.5477225575051662
+      }
+    },
+    {
+      "id": "grid-OR-0.2-False-False",
+      "accepted": true,
+      "values": {
+        "point": 3.898575728609604,
+        "ci": null,
+        "rr_point": 0.4472135954999579,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-0.2-True-True",
+      "accepted": true,
+      "values": {
+        "point": 9.47213595499958,
+        "ci": 6.122200088446918,
+        "rr_point": 0.2,
+        "rr_lo": 0.13333333333333333,
+        "rr_hi": 0.30000000000000004
+      }
+    },
+    {
+      "id": "grid-OR-0.2-True-False",
+      "accepted": true,
+      "values": {
+        "point": 9.47213595499958,
+        "ci": null,
+        "rr_point": 0.2,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-0.6-False-True",
+      "accepted": true,
+      "values": {
+        "point": 1.9039155023233463,
+        "ci": 1.292878142824106,
+        "rr_point": 0.7745966692414834,
+        "rr_lo": 0.6324555320336759,
+        "rr_hi": 0.9486832980505138
+      }
+    },
+    {
+      "id": "grid-OR-0.6-False-False",
+      "accepted": true,
+      "values": {
+        "point": 1.9039155023233463,
+        "ci": null,
+        "rr_point": 0.7745966692414834,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-0.6-True-True",
+      "accepted": true,
+      "values": {
+        "point": 2.7207592200561264,
+        "ci": 1.4624752955742646,
+        "rr_point": 0.6,
+        "rr_lo": 0.39999999999999997,
+        "rr_hi": 0.8999999999999999
+      }
+    },
+    {
+      "id": "grid-OR-0.6-True-False",
+      "accepted": true,
+      "values": {
+        "point": 2.7207592200561264,
+        "ci": null,
+        "rr_point": 0.6,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-1-False-True",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": 1,
+        "rr_point": 1,
+        "rr_lo": 0.816496580927726,
+        "rr_hi": 1.224744871391589
+      }
+    },
+    {
+      "id": "grid-OR-1-False-False",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": null,
+        "rr_point": 1,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-1-True-True",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": 1,
+        "rr_point": 1,
+        "rr_lo": 0.6666666666666666,
+        "rr_hi": 1.5
+      }
+    },
+    {
+      "id": "grid-OR-1-True-False",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": null,
+        "rr_point": 1,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-1.6-False-True",
+      "accepted": true,
+      "values": {
+        "point": 1.8437797330525096,
+        "ci": 1.2168366078826942,
+        "rr_point": 1.2649110640673518,
+        "rr_lo": 1.0327955589886444,
+        "rr_hi": 1.5491933384829668
+      }
+    },
+    {
+      "id": "grid-OR-1.6-False-False",
+      "accepted": true,
+      "values": {
+        "point": 1.8437797330525096,
+        "ci": null,
+        "rr_point": 1.2649110640673518,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-1.6-True-True",
+      "accepted": true,
+      "values": {
+        "point": 2.5797958971132715,
+        "ci": 1.3333333333333333,
+        "rr_point": 1.6,
+        "rr_lo": 1.0666666666666667,
+        "rr_hi": 2.4000000000000004
+      }
+    },
+    {
+      "id": "grid-OR-1.6-True-False",
+      "accepted": true,
+      "values": {
+        "point": 2.5797958971132715,
+        "ci": null,
+        "rr_point": 1.6,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-2-False-True",
+      "accepted": true,
+      "values": {
+        "point": 2.179580427103275,
+        "ci": 1.5773502691896255,
+        "rr_point": 1.4142135623730951,
+        "rr_lo": 1.1547005383792515,
+        "rr_hi": 1.7320508075688772
+      }
+    },
+    {
+      "id": "grid-OR-2-False-False",
+      "accepted": true,
+      "values": {
+        "point": 2.179580427103275,
+        "ci": null,
+        "rr_point": 1.4142135623730951,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-2-True-True",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": 1.9999999999999998,
+        "rr_point": 2,
+        "rr_lo": 1.3333333333333333,
+        "rr_hi": 3
+      }
+    },
+    {
+      "id": "grid-OR-2-True-False",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": null,
+        "rr_point": 2,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-10-False-True",
+      "accepted": true,
+      "values": {
+        "point": 5.777181547471242,
+        "ci": 4.603047473860494,
+        "rr_point": 3.1622776601683795,
+        "rr_lo": 2.581988897471611,
+        "rr_hi": 3.872983346207417
+      }
+    },
+    {
+      "id": "grid-OR-10-False-False",
+      "accepted": true,
+      "values": {
+        "point": 5.777181547471242,
+        "ci": null,
+        "rr_point": 3.1622776601683795,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-OR-10-True-True",
+      "accepted": true,
+      "values": {
+        "point": 19.486832980505138,
+        "ci": 12.813029638195259,
+        "rr_point": 10,
+        "rr_lo": 6.666666666666667,
+        "rr_hi": 15
+      }
+    },
+    {
+      "id": "grid-OR-10-True-False",
+      "accepted": true,
+      "values": {
+        "point": 19.486832980505138,
+        "ci": null,
+        "rr_point": 10,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-0.2-False-True",
+      "accepted": true,
+      "values": {
+        "point": 5.359337121134775,
+        "ci": 3.9731420224578753,
+        "rr_point": 0.3383645624358672,
+        "rr_lo": 0.26301877194097,
+        "rr_hi": 0.44003210034308743
+      }
+    },
+    {
+      "id": "grid-HR-0.2-False-False",
+      "accepted": true,
+      "values": {
+        "point": 5.359337121134775,
+        "ci": null,
+        "rr_point": 0.3383645624358672,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-0.2-True-True",
+      "accepted": true,
+      "values": {
+        "point": 9.47213595499958,
+        "ci": 6.122200088446918,
+        "rr_point": 0.2,
+        "rr_lo": 0.13333333333333333,
+        "rr_hi": 0.30000000000000004
+      }
+    },
+    {
+      "id": "grid-HR-0.2-True-False",
+      "accepted": true,
+      "values": {
+        "point": 9.47213595499958,
+        "ci": null,
+        "rr_point": 0.2,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-0.6-False-True",
+      "accepted": true,
+      "values": {
+        "point": 2.199622395659878,
+        "ci": 1.3612206313389328,
+        "rr_point": 0.7025644572836847,
+        "rr_lo": 0.5330910863453358,
+        "rr_hi": 0.9295812925926836
+      }
+    },
+    {
+      "id": "grid-HR-0.6-False-False",
+      "accepted": true,
+      "values": {
+        "point": 2.199622395659878,
+        "ci": null,
+        "rr_point": 0.7025644572836847,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-0.6-True-True",
+      "accepted": true,
+      "values": {
+        "point": 2.7207592200561264,
+        "ci": 1.4624752955742646,
+        "rr_point": 0.6,
+        "rr_lo": 0.39999999999999997,
+        "rr_hi": 0.8999999999999999
+      }
+    },
+    {
+      "id": "grid-HR-0.6-True-False",
+      "accepted": true,
+      "values": {
+        "point": 2.7207592200561264,
+        "ci": null,
+        "rr_point": 0.6,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-1-False-True",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": 1,
+        "rr_point": 1,
+        "rr_lo": 0.7553934293974807,
+        "rr_hi": 1.3238134739901342
+      }
+    },
+    {
+      "id": "grid-HR-1-False-False",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": null,
+        "rr_point": 1,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-1-True-True",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": 1,
+        "rr_point": 1,
+        "rr_lo": 0.6666666666666666,
+        "rr_hi": 1.5
+      }
+    },
+    {
+      "id": "grid-HR-1-True-False",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": null,
+        "rr_point": 1,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-1.6-False-True",
+      "accepted": true,
+      "values": {
+        "point": 2.1129439278880713,
+        "ci": 1.2644740598273696,
+        "rr_point": 1.3839700082583661,
+        "rr_lo": 1.045748137181637,
+        "rr_hi": 1.82491991898931
+      }
+    },
+    {
+      "id": "grid-HR-1.6-False-False",
+      "accepted": true,
+      "values": {
+        "point": 2.1129439278880713,
+        "ci": null,
+        "rr_point": 1.3839700082583661,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-1.6-True-True",
+      "accepted": true,
+      "values": {
+        "point": 2.5797958971132715,
+        "ci": 1.3333333333333333,
+        "rr_point": 1.6,
+        "rr_lo": 1.0666666666666667,
+        "rr_hi": 2.4000000000000004
+      }
+    },
+    {
+      "id": "grid-HR-1.6-True-False",
+      "accepted": true,
+      "values": {
+        "point": 2.5797958971132715,
+        "ci": null,
+        "rr_point": 1.6,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-2-False-True",
+      "accepted": true,
+      "values": {
+        "point": 2.606409265530888,
+        "ci": 1.7391389405705953,
+        "rr_point": 1.612547326536066,
+        "rr_lo": 1.2204459708191606,
+        "rr_hi": 2.1193529702381606
+      }
+    },
+    {
+      "id": "grid-HR-2-False-False",
+      "accepted": true,
+      "values": {
+        "point": 2.606409265530888,
+        "ci": null,
+        "rr_point": 1.612547326536066,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-2-True-True",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": 1.9999999999999998,
+        "rr_point": 2,
+        "rr_lo": 1.3333333333333333,
+        "rr_hi": 3
+      }
+    },
+    {
+      "id": "grid-HR-2-True-False",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": null,
+        "rr_point": 2,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-10-False-True",
+      "accepted": true,
+      "values": {
+        "point": 8.49464643654036,
+        "ci": 6.534596021189096,
+        "rr_point": 4.512958681450725,
+        "rr_lo": 3.538011907525029,
+        "rr_hi": 5.685935885596479
+      }
+    },
+    {
+      "id": "grid-HR-10-False-False",
+      "accepted": true,
+      "values": {
+        "point": 8.49464643654036,
+        "ci": null,
+        "rr_point": 4.512958681450725,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-HR-10-True-True",
+      "accepted": true,
+      "values": {
+        "point": 19.486832980505138,
+        "ci": 12.813029638195259,
+        "rr_point": 10,
+        "rr_lo": 6.666666666666667,
+        "rr_hi": 15
+      }
+    },
+    {
+      "id": "grid-HR-10-True-False",
+      "accepted": true,
+      "values": {
+        "point": 19.486832980505138,
+        "ci": null,
+        "rr_point": 10,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-SMD--2-False-True",
+      "accepted": true,
+      "values": {
+        "point": 11.8216352840174,
+        "ci": 9.762749125975454,
+        "rr_point": 0.16202575093388075,
+        "rr_lo": 0.13506488316034906,
+        "rr_hi": 0.19436839059432767
+      }
+    },
+    {
+      "id": "grid-SMD--2-False-False",
+      "accepted": true,
+      "values": {
+        "point": 11.8216352840174,
+        "ci": null,
+        "rr_point": 0.16202575093388075,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-SMD--0.5-False-True",
+      "accepted": true,
+      "values": {
+        "point": 2.529141981861269,
+        "ci": 1.9561101859855488,
+        "rr_point": 0.6344479679482282,
+        "rr_lo": 0.5288766765056825,
+        "rr_hi": 0.7610927876289343
+      }
+    },
+    {
+      "id": "grid-SMD--0.5-False-False",
+      "accepted": true,
+      "values": {
+        "point": 2.529141981861269,
+        "ci": null,
+        "rr_point": 0.6344479679482282,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-SMD-0-False-True",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": 1,
+        "rr_point": 1,
+        "rr_lo": 0.8336013404157353,
+        "rr_hi": 1.1996141938798683
+      }
+    },
+    {
+      "id": "grid-SMD-0-False-False",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": null,
+        "rr_point": 1,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-SMD-0.5-False-True",
+      "accepted": true,
+      "values": {
+        "point": 2.5291419818612693,
+        "ci": 1.9561101859855488,
+        "rr_point": 1.5761733830339912,
+        "rr_lo": 1.3139002448247392,
+        "rr_hi": 1.8907999623032263
+      }
+    },
+    {
+      "id": "grid-SMD-0.5-False-False",
+      "accepted": true,
+      "values": {
+        "point": 2.5291419818612693,
+        "ci": null,
+        "rr_point": 1.5761733830339912,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "grid-SMD-2-False-True",
+      "accepted": true,
+      "values": {
+        "point": 11.8216352840174,
+        "ci": 9.762749125975454,
+        "rr_point": 6.171858449883554,
+        "rr_lo": 5.144869476679113,
+        "rr_hi": 7.403848999097714
+      }
+    },
+    {
+      "id": "grid-SMD-2-False-False",
+      "accepted": true,
+      "values": {
+        "point": 11.8216352840174,
+        "ci": null,
+        "rr_point": 6.171858449883554,
+        "rr_lo": null,
+        "rr_hi": null
+      }
+    },
+    {
+      "id": "cross-rr",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": 1,
+        "rr_point": 1,
+        "rr_lo": 0.5,
+        "rr_hi": 2
+      }
+    },
+    {
+      "id": "cross-smd",
+      "accepted": true,
+      "values": {
+        "point": 1,
+        "ci": 1,
+        "rr_point": 1,
+        "rr_lo": 0.40252422403363597,
+        "rr_hi": 2.484322533384817
+      }
+    },
+    {
+      "id": "degenerate",
+      "accepted": true,
+      "values": {
+        "point": 3.414213562373095,
+        "ci": 3.414213562373095,
+        "rr_point": 2,
+        "rr_lo": 2,
+        "rr_hi": 2
+      }
+    }
+  ]
+}

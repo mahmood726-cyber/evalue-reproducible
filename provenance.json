@@ -1,0 +1,61 @@
+{
+  "checkout": {
+    "command": [
+      "git",
+      "-C",
+      "allmeta",
+      "rev-parse",
+      "HEAD"
+    ],
+    "exit_code": 0,
+    "output": "74ff0a7d2263ca8e0c07419888152ea156036abd\n"
+  },
+  "describe": {
+    "command": [
+      "git",
+      "-C",
+      "allmeta",
+      "describe",
+      "--tags",
+      "--always"
+    ],
+    "exit_code": 0,
+    "output": "v1.7.0-135-g74ff0a7\n"
+  },
+  "status": {
+    "command": [
+      "git",
+      "-C",
+      "allmeta",
+      "status",
+      "--short",
+      "--branch"
+    ],
+    "exit_code": 0,
+    "output": "## main...origin/main\n"
+  },
+  "v1.8.0_local": {
+    "command": [
+      "git",
+      "-C",
+      "allmeta",
+      "tag",
+      "--list",
+      "v1.8.0"
+    ],
+    "exit_code": 0,
+    "output": ""
+  },
+  "snapshot_sha256": {
+    "evalue/index.html": "999cf1c1635a80a61520ab8523eeecd2146b69097b144c2b3b82e88b6894667b",
+    "shared/evalue.js": "c9a4db8ce19358f511c560eb196426e4573b5fae92bcc2e1a5aa84f0a2a73136",
+    "shared/build-info.js": "5e830962d74b2a8ab4d2cbf1a822976e78cc0c29db5cda1e45acc052f981b333",
+    "shared/forced-colors.css": "a967581cb9dfe03bcd6158264353dd8c3fff386d2919143587aa507a24e0c39c",
+    "hub/app-style.css": "475254903d40eebe241574975f1ddff13808c8ad478c17137fda449a3952361f",
+    "hub/shared/a11y-landmarks.js": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2",
+    "LICENSE": "9ef93bba7449dd90d4d56d657049842fc7ff0b073fb669b79daf267d68c1c8c6"
+  },
+  "release_status": "v1.8.0 not locally available; no fetch permitted",
+  "build_info_caveat": "Bundled build-info.js identifies v1.7.0/7899ce5, not checkout HEAD; bytes preserved",
+  "model_tar_sha256": "8416c9e72d62c047d1382cdb93b58cb315d2c02c1dff4f41bf500ebbdea19078"
+}

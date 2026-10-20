@@ -1,0 +1,7 @@
+{
+  "configurations": 121,
+  "accepted": 121,
+  "oracle_comparison": "NOT RUN: EValue missing",
+  "real_configurations": 48,
+  "synthetic_configurations": 73
+}
