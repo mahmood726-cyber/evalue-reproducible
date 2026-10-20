@@ -1,0 +1,31 @@
+{
+  "passed": 21691,
+  "expected": 22428,
+  "configurations": 3738,
+  "max_normalized_difference": 0.00044741368482914545,
+  "tolerance": 1e-09,
+  "failures": [
+    "grid-HR-0.2-False-True:point",
+    "grid-HR-0.2-False-True:ci",
+    "grid-HR-0.2-False-True:rr_point",
+    "grid-HR-0.2-False-True:rr_lo",
+    "grid-HR-0.2-False-True:rr_hi",
+    "grid-HR-0.2-False-False:point",
+    "grid-HR-0.2-False-False:rr_point",
+    "grid-HR-0.6-False-True:point",
+    "grid-HR-0.6-False-True:ci",
+    "grid-HR-0.6-False-True:rr_point",
+    "grid-HR-0.6-False-True:rr_lo",
+    "grid-HR-0.6-False-True:rr_hi",
+    "grid-HR-0.6-False-False:point",
+    "grid-HR-0.6-False-False:rr_point",
+    "grid-HR-1-False-True:point",
+    "grid-HR-1-False-True:rr_point",
+    "grid-HR-1-False-True:rr_lo",
+    "grid-HR-1-False-True:rr_hi",
+    "grid-HR-1-False-False:point",
+    "grid-HR-1-False-False:rr_point",
+    "..."
+  ],
+  "final_line": "21691/22428 checks pass"
+}

@@ -1,0 +1,57 @@
+{
+  "tag": "v1.8.0",
+  "tag_commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "tag_subject": "release: allmeta v1.8.0 2026-10-20 21:32:56 +0100",
+  "origin_main_2026-10-21": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "feature_branch_head": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "feature_branch_commits_ahead_of_origin_main": 0,
+  "validated_commit_is_ancestor": true,
+  "page_files_changed_74ff0a7_to_v1.8.0": [
+    "shared/build-info.js"
+  ],
+  "snapshot": "app-v1.8.0/ written from git blob bytes (git show v1.8.0:<path>)",
+  "files": {
+    "evalue/index.html": {
+      "git_blob": "ab17be6378827a743689d125452870b7e10c8908",
+      "sha256": "e74fcaf5e6876a87833923656f072da3e488e2623aec0527a11c8613125b654f",
+      "equals_app_original": false,
+      "equals_app_original_ignoring_CR": true
+    },
+    "hub/app-style.css": {
+      "git_blob": "24574bf090eaa4ec0ab3c24aa965069f1ca7d4ea",
+      "sha256": "905dba05ebb123f3c3baec8b5691830b48eb9c9092648f5cba71be0efc6a12a6",
+      "equals_app_original": false,
+      "equals_app_original_ignoring_CR": true
+    },
+    "hub/shared/a11y-landmarks.js": {
+      "git_blob": "293c9ad23a84810b4831da3cc2834899c75af9e8",
+      "sha256": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2",
+      "equals_app_original": true,
+      "equals_app_original_ignoring_CR": true
+    },
+    "LICENSE": {
+      "git_blob": "79542999a30ac4e2e976d671f579635aa1172bbd",
+      "sha256": "9ef93bba7449dd90d4d56d657049842fc7ff0b073fb669b79daf267d68c1c8c6",
+      "equals_app_original": true,
+      "equals_app_original_ignoring_CR": true
+    },
+    "shared/build-info.js": {
+      "git_blob": "ba55c2cace553c364f22ceb13b30c41fbda826e5",
+      "sha256": "232a5a903b1fcc451fede886d11688a80c0dce736d60a3613cc8ef5d41c94668",
+      "equals_app_original": false,
+      "equals_app_original_ignoring_CR": false
+    },
+    "shared/evalue.js": {
+      "git_blob": "ddf6d38e626b035b25358f4c9cbe0aa4335f2d3c",
+      "sha256": "c9a4db8ce19358f511c560eb196426e4573b5fae92bcc2e1a5aa84f0a2a73136",
+      "equals_app_original": true,
+      "equals_app_original_ignoring_CR": true
+    },
+    "shared/forced-colors.css": {
+      "git_blob": "abbfcf01b6b7c4fd2e2f550d8b034a0b97c71466",
+      "sha256": "a26b396b0b5b683ea06fca129855e3aba34805348e2d8d4e811ef74b44f5e96e",
+      "equals_app_original": false,
+      "equals_app_original_ignoring_CR": true
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "relative-1e-8": {
+    "rejected": true,
+    "reason": {
+      "passed": 22427,
+      "expected": 22428,
+      "configurations": 3738,
+      "max_normalized_difference": 9.999997861544899e-09,
+      "tolerance": 1e-09,
+      "failures": [
+        "gibson2002-004-RR-FALSE:point"
+      ],
+      "final_line": "22427/22428 checks pass"
+    }
+  },
+  "dropped-configuration": {
+    "rejected": true,
+    "reason": "Configuration mismatch: missing=['dense-SMD-120-False-False'], extra=[]"
+  },
+  "duplicate-id": {
+    "rejected": true,
+    "reason": "Schema mismatch or duplicate ID"
+  },
+  "nonfinite": {
+    "rejected": true,
+    "reason": {
+      "passed": 22427,
+      "expected": 22428,
+      "configurations": 3738,
+      "max_normalized_difference": 4.862166479269799e-15,
+      "tolerance": 1e-09,
+      "failures": [
+        "gibson2002-004-RR-FALSE:point"
+      ],
+      "final_line": "22427/22428 checks pass"
+    }
+  }
+}

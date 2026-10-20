@@ -58,5 +58,13 @@
         "hi": 0.8875049397635569
       }
     }
-  }
+  },
+  "release_tag": "v1.8.0",
+  "release_commit": "1cb3f8409c7af75ed41f7e1811f9c502f900fc79",
+  "release_changed_page_files": [
+    "shared/build-info.js"
+  ],
+  "release_output_identical_to_original": true,
+  "original_checks_passed": 22428,
+  "original_checks_expected": 22428
 }

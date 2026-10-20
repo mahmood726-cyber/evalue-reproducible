@@ -1,0 +1,112 @@
+[
+  {
+    "measure": "RR",
+    "point": null,
+    "lo": 1.5,
+    "hi": 2.7,
+    "rare": false,
+    "id": "refuse-missing-point"
+  },
+  {
+    "measure": "RR",
+    "point": 0,
+    "lo": null,
+    "hi": null,
+    "rare": false,
+    "id": "refuse-zero-ratio"
+  },
+  {
+    "measure": "RR",
+    "point": -1,
+    "lo": null,
+    "hi": null,
+    "rare": false,
+    "id": "refuse-negative-ratio"
+  },
+  {
+    "measure": "RR",
+    "point": "oops",
+    "lo": 1.5,
+    "hi": 2.7,
+    "rare": false,
+    "id": "refuse-text-point"
+  },
+  {
+    "measure": "RR",
+    "point": "",
+    "lo": 1.5,
+    "hi": 2.7,
+    "rare": false,
+    "id": "refuse-malformed-point",
+    "badInput": [
+      "point"
+    ]
+  },
+  {
+    "measure": "RR",
+    "point": 2,
+    "lo": "",
+    "hi": "",
+    "rare": false,
+    "id": "refuse-malformed-ci",
+    "badInput": [
+      "lo"
+    ]
+  },
+  {
+    "measure": "RR",
+    "point": 2,
+    "lo": null,
+    "hi": 2.7,
+    "rare": false,
+    "id": "refuse-partial-ci"
+  },
+  {
+    "measure": "RR",
+    "point": 2,
+    "lo": 3,
+    "hi": 1,
+    "rare": false,
+    "id": "refuse-reversed-ci"
+  },
+  {
+    "measure": "RR",
+    "point": 2,
+    "lo": 2.5,
+    "hi": 3,
+    "rare": false,
+    "id": "refuse-noncontaining-ci"
+  },
+  {
+    "measure": "RR",
+    "point": 2,
+    "lo": 0,
+    "hi": 2.7,
+    "rare": false,
+    "id": "refuse-zero-limit"
+  },
+  {
+    "measure": "RR",
+    "point": "Infinity",
+    "lo": 1.5,
+    "hi": 2.7,
+    "rare": false,
+    "id": "refuse-nonfinite"
+  },
+  {
+    "measure": "SMD",
+    "point": 1000,
+    "lo": null,
+    "hi": null,
+    "rare": false,
+    "id": "refuse-overflow-smd"
+  },
+  {
+    "measure": "OLS",
+    "point": 2,
+    "lo": 1.5,
+    "hi": 2.7,
+    "rare": false,
+    "id": "refuse-unsupported"
+  }
+]

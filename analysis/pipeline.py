@@ -292,8 +292,32 @@ def full():
     print(refusal["final_line"]+" (refusals)",flush=True)
     if refusal["failures"]:
         raise RuntimeError("Refusal mismatch")
+    release(cases,expected,actual,refusal_cases,work)
     print(run([sys.executable,"-B","analysis/test_safeguards.py"],
               log=work/"archive-safeguards.log"), end="", flush=True)
+
+
+def release(cases,expected,original,refusal_cases,work):
+    """PREREG_ADDENDUM_3.md: replay the v1.8.0 release snapshot against the same reference."""
+    page="app-v1.8.0/evalue/index.html"
+    actual=replay(cases,work,"release",page)
+    summary=compare(expected,actual)
+    write(work/"release-summary.json",summary)
+    print(summary["final_line"]+" (release v1.8.0)",flush=True)
+    if summary["failures"]:
+        raise RuntimeError("Release oracle comparison failed")
+    refusal=compare([dict(id=c["id"],accepted=False,values=None) for c in refusal_cases],
+                    replay(refusal_cases,work,"release-refusals",page))
+    write(work/"release-refusals-summary.json",refusal)
+    print(refusal["final_line"]+" (release v1.8.0 refusals)",flush=True)
+    if refusal["failures"]:
+        raise RuntimeError("Release refusal mismatch")
+    identical=actual==original
+    write(work/"release-vs-original.json",dict(configurations=len(actual),
+          identical_output=identical,comparison="exact equality of every row"))
+    if not identical:
+        raise RuntimeError("Release output differs from original page")
+    print("Release v1.8.0 output identical to original page (exact)",flush=True)
 
 
 def local():

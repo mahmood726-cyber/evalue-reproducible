@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RUN = ROOT/"evidence/fresh/run-1-original-page"
+RUN = ROOT/"evidence/fresh/run-2-release-v1.8.0"  # PREREG_ADDENDUM_3.md: counts from the release page
 
 
 def load(p):
@@ -14,14 +14,17 @@ def load(p):
 
 
 def main():
-    s = load(RUN/"summary.json")
+    s = load(RUN/"release-summary.json")
+    original = load(RUN/"summary.json")
+    release = load(ROOT/"provenance-release.json")
+    same = load(RUN/"release-vs-original.json")
     corpus = load(ROOT/"data/corpus.json")
     real = [c for c in corpus if "dataset" in c]
     by_measure = collections.Counter(c["measure"] for c in corpus)
     real_by_measure = collections.Counter(c["measure"] for c in real)
     safeguards = load(RUN/"safeguards.json")
     mutant = load(RUN/"mutant-summary.json")
-    refusal = load(RUN/"refusals-summary.json")
+    refusal = load(RUN/"release-refusals-summary.json")
     smd = load(RUN/"smd-se-convention.json")
     log = (RUN/"corpus.log").read_text(encoding="utf-8")
     excl = [(m.group(1), m.group(2), int(m.group(3))) for m in
@@ -49,6 +52,10 @@ def main():
         "smd_se_max_rel_diff_real": smd["real"]["max_relative_difference"],
         "smd_se_real_configurations": smd["real"]["configurations"],
         "browser": capture["browser"], "figures": figs,
+        "release_tag": release["tag"], "release_commit": release["tag_commit"],
+        "release_changed_page_files": release["page_files_changed_74ff0a7_to_v1.8.0"],
+        "release_output_identical_to_original": same["identical_output"],
+        "original_checks_passed": original["passed"], "original_checks_expected": original["expected"],
     }
     (ROOT/"evidence/fresh/paper_values.json").write_text(json.dumps(out, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(out, indent=2))
