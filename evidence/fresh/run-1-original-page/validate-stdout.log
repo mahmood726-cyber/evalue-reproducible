@@ -1,0 +1,7 @@
+Exact R/package versions PASS
+Archive integrity PASS: 90 files
+22428/22428 checks pass
+Planted comparator defects (1e-8 perturbation, dropped configuration, duplicate ID, nonfinite) all rejected
+Planted app-source defect rejected: 21691/22428 checks pass
+26/26 checks pass (refusals)
+4/4 archive/version safeguards pass: changed, missing, extra, wrong-R-version

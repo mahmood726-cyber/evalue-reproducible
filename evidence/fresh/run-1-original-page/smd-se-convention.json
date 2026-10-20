@@ -1,0 +1,12 @@
+{
+  "real": {
+    "configurations": 175,
+    "max_relative_difference": 0.008512414753996304,
+    "counted_in_validation": false
+  },
+  "synthetic": {
+    "configurations": 127,
+    "max_relative_difference": 0.001821703964359354,
+    "counted_in_validation": false
+  }
+}

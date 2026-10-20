@@ -1,0 +1,20 @@
+"id","study","year","country","ibs.crit","days","visits","jadad","x.a","n.a","x.p","n.p"
+1,"Bensoussan",1998,"Australia","Rome I",112,7,5,29,38,11,32
+2,"Blanchard",1992,"USA","Other",84,12,3,20,31,21,30
+3,"Brinkhaus",2005,"Germany","Other",126,5,5,14,23,30,46
+4,"Carling",1989,"Sweden","Other",14,2,3,17,30,5,13
+5,"Davis",2006,"UK","Rome II",30,2,5,11,27,6,23
+6,"Dew",1984,"Wales","Other",14,NA,2,24,29,5,29
+7,"Gade",1989,"Denmark","Other",28,3,4,26,32,9,22
+8,"Halpern",1996,"USA","Manning",42,NA,5,17,18,13,18
+9,"Kim",2003,"USA","Rome II",56,NA,4,4,12,5,13
+10,"Leung",2006,"Hong Kong","Rome II",56,2,5,21,60,26,59
+11,"Lu",2005,"Singapore","Rome II",56,NA,3,15,17,8,17
+12,"Madisch",2004,"Germany","Rome II",28,3,4,37,51,20,52
+13,"Nash",1986,"England","Other",14,NA,4,13,33,17,33
+14,"Niedzielin",2001,"Poland","Manning",28,2,3,19,20,3,20
+15,"Olesen",2000,"Denmark","Manning",84,5,5,29,50,30,46
+16,"Rees",1979,"Wales","Other",21,NA,1,13,16,5,16
+17,"Sallon",2002,"Israel","Rome I",84,4,5,25,33,8,26
+18,"Yadav",1989,"India","Other",42,NA,5,37,57,17,50
+19,"Whorwell",2006,"UK","Rome II",28,2,5,55,90,37,90

@@ -16,13 +16,18 @@ matrix_result <- function(x) {
 }
 result <- lapply(seq_len(nrow(d)), function(i) {
   x <- d[i,]
+  sl <- sh <- NA_real_
   if(x$measure=="SMD") {
-    # Pointwise MD adapter: standardized differences, not the package's se-based CI.
-    at <- function(v) matrix_result(EValue::evalues.MD(est=v, sd=1))
+    # Pointwise MD adapter (PREREG_ADDENDUM_2): evalues.MD(est) treats est as standardized d;
+    # it has no sd argument. Counted limits are transformed pointwise, not via its se-based CI.
+    at <- function(v) matrix_result(EValue::evalues.MD(est=v))
     r <- at(x$point)
     rp <- r[1,1]; ep <- r[2,1]
     rl <- rh <- ec <- NA_real_
     if(!is.na(x$lo)) {
+      # Descriptive only (not counted): EValue's own se-based limits exp(0.91 d +/- 1.78 se).
+      s <- matrix_result(EValue::evalues.MD(est=x$point, se=(x$hi-x$lo)/(2*qnorm(.975))))
+      sl <- s[1,2]; sh <- s[1,3]
       a <- at(x$lo); b <- at(x$hi)
       rl <- a[1,1]; rh <- b[1,1]
       ec <- if(x$lo<=0 && x$hi>=0) EValue::evalues.RR(1)[2,1] else
@@ -38,7 +43,7 @@ result <- lapply(seq_len(nrow(d)), function(i) {
   }
   stopifnot(is.finite(ep), is.finite(rp))
   if(!is.na(x$lo)) stopifnot(all(is.finite(c(ec,rl,rh))))
-  data.frame(id=x$id, point=ep, ci=ec, rr_point=rp, rr_lo=rl, rr_hi=rh)
+  data.frame(id=x$id, point=ep, ci=ec, rr_point=rp, rr_lo=rl, rr_hi=rh, se_rr_lo=sl, se_rr_hi=sh)
 })
 write.csv(do.call(rbind,result), args[[2]], row.names=FALSE, na="")
 writeLines(c(capture.output(sessionInfo()), paste("API exported:", paste(api, collapse=", "))),

@@ -65,6 +65,16 @@ def synthetic():
     for name, measure, p, lo, hi in (
         ("cross-rr","RR",1,.5,2), ("cross-smd","SMD",0,-1,1), ("degenerate","RR",2,2,2)):
         rows.append(dict(id=name, measure=measure, point=p, lo=lo, hi=hi, rare=False))
+    # Dense grid, PREREG_ADDENDUM_2.md.
+    for measure in ("RR", "OR", "HR", "SMD"):
+        n = 121 if measure == "SMD" else 101
+        for i in range(n):
+            p = -3 + 6*i/(n-1) if measure == "SMD" else math.exp(math.log(.02) + math.log(50/.02)*i/(n-1))
+            for rare in ((False, True) if measure in ("OR", "HR") else (False,)):
+                for ci in (True, False):
+                    lo, hi = (p-.25, p+.25) if measure == "SMD" else (p/1.5, p*1.5)
+                    rows.append(dict(id=f"dense-{measure}-{i:03d}-{rare}-{ci}", measure=measure,
+                                     point=p, lo=lo if ci else None, hi=hi if ci else None, rare=rare))
     return rows
 
 
@@ -177,12 +187,50 @@ def safeguards(expected, actual):
     return outcomes
 
 
-def replay(cases, work, name):
+def replay(cases, work, name, page="app-original/evalue/index.html"):
     write(work/(name+"-inputs.json"),cases)
-    text = run(["node","analysis/replay.cjs","app-original/evalue/index.html",
+    text = run(["node","analysis/replay.cjs",page,
                 work/(name+"-inputs.json"),work/(name+"-app.json")])
     (work/(name+"-replay.log")).write_text(text,encoding="utf-8")
     return read(work/(name+"-app.json"))["rows"]
+
+
+def planted_source_defect(cases,expected,work):
+    """Replay a copy of the page whose HR conversion constant is perturbed; it must fail."""
+    app=work/"mutant-app"
+    shutil.copytree(ROOT/"app-original",app)
+    js=app/"shared/evalue.js"
+    old="Math.pow(0.5, Math.sqrt(est))"
+    text=js.read_text(encoding="utf-8")
+    if text.count(old)!=1:
+        raise RuntimeError("Planted-defect target not found exactly once")
+    js.write_text(text.replace(old,"Math.pow(0.5000001, Math.sqrt(est))"),encoding="utf-8")
+    summary=compare(expected,replay(cases,work,"mutant",app/"evalue/index.html"))
+    if not summary["failures"]:
+        raise AssertionError("Planted app-source defect escaped")
+    summary["failures"]=summary["failures"][:20]+(["..."] if len(summary["failures"])>20 else [])
+    write(work/"mutant-summary.json",summary)
+    return summary
+
+
+def smd_convention(cases,actual,reference):
+    """Descriptive only: app pointwise SMD limits vs EValue's se-based exp(0.91 d +/- 1.78 se)."""
+    with Path(reference).open(encoding="utf-8",newline="") as f:
+        ref={r["id"]:r for r in csv.DictReader(f)}
+    got={r["id"]:r for r in actual}
+    out={}
+    for group in ("real","synthetic"):
+        diffs=[]
+        for c in cases:
+            if c["measure"]!="SMD" or c["lo"] is None or ("dataset" in c)!=(group=="real"):
+                continue
+            r=ref[c["id"]]
+            for k in ("lo","hi"):
+                x=float(r["se_rr_"+k]); y=got[c["id"]]["values"]["rr_"+k]
+                diffs.append(abs(x-y)/abs(x))
+        out[group]=dict(configurations=len(diffs)//2,max_relative_difference=max(diffs),
+                        counted_in_validation=False)
+    return out
 
 
 def write_csv(cases,path):
@@ -233,6 +281,10 @@ def full():
     if summary["failures"]:
         raise RuntimeError("Fresh oracle comparison failed")
     write(work/"safeguards.json",safeguards(expected,actual))
+    print("Planted comparator defects (1e-8 perturbation, dropped configuration, duplicate ID, nonfinite) all rejected",flush=True)
+    planted=planted_source_defect(cases,expected,work)
+    print(f"Planted app-source defect rejected: {planted['final_line']}",flush=True)
+    write(work/"smd-se-convention.json",smd_convention(cases,actual,work/"reference.csv"))
     refusal_cases=probes()
     refusal=compare([dict(id=c["id"],accepted=False,values=None) for c in refusal_cases],
                     replay(refusal_cases,work,"refusals"))
