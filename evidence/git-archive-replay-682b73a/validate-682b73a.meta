@@ -1,0 +1,6 @@
+commit=682b73a440627728f7d7efd630392390ee5910e1
+tree=3b83486c3d41594e54face0c341f6dfac4ee4927
+tar_sha256=c1e4e8259e9208a63dfffdbc52d00f45490a17b5d0f3d205da1245c3d2e9316c
+command=Rscript --vanilla validate.R < NUL (cwd=fresh/git-archive-682b73a, R_LIBS_USER=<WORKSPACE>/r-library)
+exit=0
+date=2026-10-20T15:20:26Z

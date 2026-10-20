@@ -1,0 +1,1 @@
+Fresh git-archive replay of commit 682b73a: reference.csv, full-app.json, summary.json, mutant-summary.json, refusals-summary.json, smd-se-convention.json and real-corpus.csv are byte-identical to evidence/fresh/run-1-original-page; verify_archive 188/188 in the extraction.
