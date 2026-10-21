@@ -1,6 +1,6 @@
 # E-value reproducibility archive — paper 22 (allmeta `evalue/`)
 
-Validation archive for the allmeta E-value page (VanderWeele & Ding E-value for RR, OR, HR and standardized mean differences) against the CRAN R package **EValue 4.1.4**. It is local only. There is no release yet: metadata carry `<ALLMETA_RELEASE>` / `<ALLMETA_RELEASE_DOI>` placeholders.
+Validation archive for the allmeta E-value page (VanderWeele & Ding E-value for RR, OR, HR and standardized mean differences) against the CRAN R package **EValue 4.1.4**. The validated release is allmeta v1.8.0 (tag `v1.8.0`, commit 1cb3f8409c7af75ed41f7e1811f9c502f900fc79, DOI 10.5281/zenodo.23515177); `RELEASE_EQUIVALENCE.md` records the byte comparison and the replay on the v1.8.0 bytes.
 
 ## Result
 

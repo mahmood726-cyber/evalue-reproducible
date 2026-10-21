@@ -2,12 +2,12 @@ cff-version: 1.2.0
 message: "If you use this archive, please cite it as below."
 title: "E-values in the browser: validation of the allmeta E-value page against the R package EValue (reproducibility archive)"
 type: software
-version: "<ALLMETA_RELEASE>"
-# Related allmeta release DOI: <ALLMETA_RELEASE_DOI>
+version: "1.0.0"
+# Related allmeta release: v1.8.0, DOI 10.5281/zenodo.23515177
 authors:
   - family-names: "Ahmad"
     given-names: "Mahmood"
     affiliation: "Tahir Heart Institute, Rabwah, Pakistan"
     orcid: "https://orcid.org/0000-0001-9107-3704"
 license: MIT
-abstract: "Archive validating the allmeta E-value page (allmeta <ALLMETA_RELEASE>, DOI <ALLMETA_RELEASE_DOI>) against EValue 4.1.4: 22,428/22,428 checks on 3,738 configurations; one-command Rscript validate.R."
+abstract: "Archive validating the allmeta E-value page (allmeta v1.8.0, DOI 10.5281/zenodo.23515177) against EValue 4.1.4: 22,428/22,428 checks on 3,738 configurations; one-command Rscript validate.R."

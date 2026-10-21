@@ -1,8 +1,8 @@
 {
   "title": "E-values in the browser: validation of the allmeta E-value page against the R package EValue (reproducibility archive)",
   "upload_type": "software",
-  "version": "<ALLMETA_RELEASE>",
-  "description": "Reproducibility archive for the allmeta E-value page (allmeta <ALLMETA_RELEASE>; release DOI <ALLMETA_RELEASE_DOI>). The page's own scripts were compared with EValue 4.1.4 (R 4.6.0) on 3,738 preregistered configurations (2,413 from 30 metadat datasets, 1,325 synthetic): 22,428/22,428 checks within 1e-9; planted defects rejected. Run: Rscript --vanilla validate.R.",
+  "version": "1.0.0",
+  "description": "Reproducibility archive for the allmeta E-value page (allmeta v1.8.0; release DOI 10.5281/zenodo.23515177). The page's own scripts were compared with EValue 4.1.4 (R 4.6.0) on 3,738 preregistered configurations (2,413 from 30 metadat datasets, 1,325 synthetic): 22,428/22,428 checks within 1e-9; planted defects rejected. Run: Rscript --vanilla validate.R.",
   "creators": [
     {
       "name": "Mahmood Ahmad",
@@ -20,7 +20,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "<ALLMETA_RELEASE_DOI>",
+      "identifier": "10.5281/zenodo.23515177",
       "relation": "isSupplementTo",
       "resource_type": "software"
     }
