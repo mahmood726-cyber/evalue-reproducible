@@ -1,0 +1,35 @@
+{
+ "note": "Preregistration order in the git history of this repository: each plan was committed before, and is an ancestor of, the first commit that touches its results, and the plan files are unchanged since (git log --reverse --format='%H %ct'). analysis/verify_archive.py proves this from git and requires this record to agree; copies without .git check the record only.",
+ "stages": [
+  {
+   "plan": [
+    "PREREG.md",
+    "PREREG_ADDENDUM.md",
+    "PREREG_ADDENDUM_2.md"
+   ],
+   "plan_commit": "444eb16119eb0d88f152d61ff4d41914403d9a2a",
+   "plan_committed_unix": 1792509035,
+   "plan_blobs": {
+    "PREREG.md": "aeceff1be7527eb4d63c51e8f958a79f54afba3d",
+    "PREREG_ADDENDUM.md": "80cdc620d8cf3efd0d97c5509ce46221608f8241",
+    "PREREG_ADDENDUM_2.md": "8ac2d6ed4bce475ac827aa9eb4f20eacf76a35e9"
+   },
+   "results": "evidence/fresh",
+   "first_results_commit": "fb111d2138c2fd25c96257a2f4bcf04b5eeebecb",
+   "first_results_committed_unix": 1792509192
+  },
+  {
+   "plan": [
+    "PREREG_ADDENDUM_3.md"
+   ],
+   "plan_commit": "4f8ed9a4988a9b3d155b37f0e673f453e298f773",
+   "plan_committed_unix": 1792537515,
+   "plan_blobs": {
+    "PREREG_ADDENDUM_3.md": "43f205fe9f5a405ad2962558808debfcb1e4f082"
+   },
+   "results": "evidence/fresh/run-2-release-v1.8.0",
+   "first_results_commit": "526f14c58c3e5af55a2445f2bd78588c42178591",
+   "first_results_committed_unix": 1792537689
+  }
+ ]
+}

@@ -1,1 +1,0 @@
-Fresh git-archive replay of archive commit 6a7d71b (tree a185ae3a). Outputs reference.csv, full-app.json, release-app.json, summary.json, release-summary.json, release-vs-original.json, refusals-summary.json, release-refusals-summary.json, safeguards.json and mutant-summary.json are byte-identical (cmp) to evidence/fresh/run-2-release-v1.8.0/.

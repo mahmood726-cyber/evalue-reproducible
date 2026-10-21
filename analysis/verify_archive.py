@@ -1,4 +1,4 @@
-from pipeline import ROOT, verify
+from pipeline import ROOT, verify, prereg_order
 print(f"{verify()} archive hashes verified")
 for name in ("README.md", "CITATION.cff", ".zenodo.json"):
     text = (ROOT/name).read_text(encoding="utf-8")
@@ -7,3 +7,6 @@ for name in ("README.md", "CITATION.cff", ".zenodo.json"):
 eq = (ROOT/"RELEASE_EQUIVALENCE.md").read_text(encoding="utf-8")
 assert "1cb3f8409c7af75ed41f7e1811f9c502f900fc79" in eq and "byte-identical" in eq and "22,428/22,428" in eq, "Release equivalence record missing"
 print("allmeta v1.8.0 release identifiers filled; release equivalence record present")
+for line in prereg_order():
+    print("Preregistration: "+line)
+print("Preregistration files equal their preregistered blobs")

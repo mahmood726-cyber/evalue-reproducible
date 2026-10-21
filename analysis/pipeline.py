@@ -255,6 +255,44 @@ def verify(root=ROOT):
     return len(pins)
 
 
+def prereg_order(root=ROOT):
+    """Each preregistration stage in PREREG_RECORD.json: its plan files were added in one commit that is older than, and an
+    ancestor of, the first commit touching its results, and they are unchanged since. With .git this is proved from the
+    history, which must agree with the record; a squashed or shallow history fails. Without .git only the record is checked."""
+    rec=read(root/"PREREG_RECORD.json")
+    has_git=(root/".git").exists()
+    git=lambda *a: subprocess.run(["git","-C",str(root),*a],capture_output=True,text=True)
+    log=lambda path: git("log","--reverse","--format=%H %ct","HEAD","--",path).stdout.split()
+    if has_git and git("rev-parse","--is-shallow-repository").stdout.split()!=["false"]:
+        raise ValueError("Shallow clone: the preregistration order needs the full history")
+    lines=[]
+    for s in rec["stages"]:
+        if s["plan_commit"]==s["first_results_commit"] or s["plan_committed_unix"]>=s["first_results_committed_unix"]:
+            raise ValueError("PREREG_RECORD.json: plan not committed before results: "+s["results"])
+        for name,blob in s["plan_blobs"].items():
+            raw=(root/name).read_bytes()
+            if hashlib.sha1(b"blob %d\0"%len(raw)+raw).hexdigest()!=blob:
+                raise ValueError("Preregistration file differs from the preregistered blob: "+name)
+        if not has_git:
+            lines.append(f'{" + ".join(s["plan"])} ({s["plan_commit"][:7]}) before {s["results"]} ({s["first_results_commit"][:7]}): record only, no git history in this copy')
+            continue
+        res=log(s["results"])
+        if not res:
+            raise ValueError("No git history for "+s["results"])
+        for name,blob in s["plan_blobs"].items():
+            pre=log(name)
+            if len(pre)!=2:
+                raise ValueError("Preregistration file changed after its commit: "+name)
+            if pre[0]==res[0] or int(pre[1])>=int(res[1]) or git("merge-base","--is-ancestor",pre[0],res[0]).returncode:
+                raise ValueError(f"{name} was not committed before the first commit touching {s['results']}")
+            if pre!=[s["plan_commit"],str(s["plan_committed_unix"])] or git("rev-parse",pre[0]+":"+name).stdout.split()!=[blob]:
+                raise ValueError("Git history disagrees with PREREG_RECORD.json: "+name)
+        if res[:2]!=[s["first_results_commit"],str(s["first_results_committed_unix"])]:
+            raise ValueError("Git history disagrees with PREREG_RECORD.json: "+s["results"])
+        lines.append(f'{" + ".join(s["plan"])} ({s["plan_commit"][:7]}) precede the first {s["results"]} commit ({res[0][:7]}) in the git history')
+    return lines
+
+
 def full():
     print(f"Archive integrity PASS: {verify()} files",flush=True)
     work=ROOT/".validate-work"
