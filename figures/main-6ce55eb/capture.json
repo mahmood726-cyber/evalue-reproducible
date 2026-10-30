@@ -1,0 +1,93 @@
+{
+  "browser": "Microsoft Edge 155.0.4283.62",
+  "executable": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "headless": true,
+  "viewport": {
+    "width": 1200,
+    "height": 900
+  },
+  "deviceScaleFactor": 2,
+  "driver": "playwright-core 1.59.1",
+  "command": "node capture_figure_main-6ce55eb.cjs < NUL",
+  "captured_utc": "2026-10-30T22:04:24.570Z",
+  "captures": [
+    {
+      "figure": "figure1",
+      "input": {
+        "id": "bcg-001-RR-FALSE",
+        "dataset": "metadat::dat.bcg",
+        "row": "1",
+        "measure": "RR",
+        "point": 0.410938654841094,
+        "lo": 0.134301570832589,
+        "hi": 1.25739838332279,
+        "rare": false
+      },
+      "result": {
+        "rr": {
+          "point": 0.410938654841094,
+          "lo": 0.134301570832589,
+          "hi": 1.25739838332279
+        },
+        "point": 4.301136674519124,
+        "ci": 1
+      },
+      "evalue_reference": {
+        "point": 4.30113667451912,
+        "ci": 1,
+        "rr_point": 0.410938654841094,
+        "rr_lo": 0.134301570832589,
+        "rr_hi": 1.25739838332279,
+        "se_rr_lo": null,
+        "se_rr_hi": null
+      },
+      "displayed_table": "E-value (point estimate)\t4.3011\nE-value (CI limit nearest null)\t1\nApprox. risk ratio used\t0.4109 (CI 0.1343–1.2574)",
+      "plot_text": "1231/RR = 2.4335E = 4.3011",
+      "plot_aria_label": "Observed risk ratio (its reciprocal, 1/RR, for a protective effect) and E-value on a log scale",
+      "interpretation": "To fully explain away the point estimate, an unmeasured confounder would need to be associated with both the exposure and the outcome by a risk ratio of 4.3011-fold each, above and beyond the measured covariates. For the interval: the supplied confidence interval includes the null, so the CI E-value is 1.",
+      "url": "file:///<WORKSPACE>/evalue-reproducible/app-main-6ce55eb/evalue/index.html",
+      "blocked_requests": [],
+      "errors": []
+    },
+    {
+      "figure": "figure2",
+      "input": {
+        "id": "normand1999-001-SMD",
+        "dataset": "metadat::dat.normand1999",
+        "row": "1",
+        "measure": "SMD",
+        "point": -0.355169640940107,
+        "lo": -0.57919511515792,
+        "hi": -0.131144166722294,
+        "rare": false
+      },
+      "result": {
+        "rr": {
+          "point": 0.7238259085929979,
+          "lo": 0.590333554751886,
+          "hi": 0.8875049397635569
+        },
+        "point": 2.107582314887569,
+        "ci": 1.5046708733082257
+      },
+      "evalue_reference": {
+        "point": 2.10758231488757,
+        "ci": 1.50467087330823,
+        "rr_point": 0.723825908592998,
+        "rr_lo": 0.590333554751886,
+        "rr_hi": 0.887504939763557,
+        "se_rr_lo": 0.590574304555752,
+        "se_rr_hi": 0.887143145085852
+      },
+      "displayed_table": "E-value (point estimate)\t2.1076\nE-value (CI limit nearest null)\t1.5047\nApprox. risk ratio used\t0.7238 (CI 0.5903–0.8875)",
+      "plot_text": "1231/RR = 1.3815E = 2.1076",
+      "plot_aria_label": "Observed risk ratio (its reciprocal, 1/RR, for a protective effect) and E-value on a log scale",
+      "interpretation": "To fully explain away the point estimate, an unmeasured confounder would need to be associated with both the exposure and the outcome by a risk ratio of 2.1076-fold each, above and beyond the measured covariates. For the interval: a confounder associated with both exposure and outcome by a risk ratio of 1.5047-fold each (above measured covariates) could shift the CI limit nearest the null to 1.",
+      "url": "file:///<WORKSPACE>/evalue-reproducible/app-main-6ce55eb/evalue/index.html",
+      "blocked_requests": [],
+      "errors": []
+    }
+  ],
+  "snapshot": "app-main-6ce55eb (allmeta 6ce55eb9232b17b6fb0948ec8217d653acf28b57)",
+  "note": "Real archived page in Edge on metadat data; values asserted equal to fresh EValue 4.1.4 reference (1e-9); #plot text must contain 1/RR."
+}
