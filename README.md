@@ -7,6 +7,7 @@ Validation archive for the allmeta E-value page (VanderWeele & Ding E-value for 
 | | Release page (allmeta v1.8.0, 1cb3f84) and original page (74ff0a7) |
 |---|---|
 | Configurations | 3,738 (2,413 real-data from 30 metadat datasets + 1,325 synthetic) |
+| allmeta main 6ce55eb (1/RR label fix, unreleased; run 3) | **22,428 / 22,428** checks, 26 / 26 refusals; output exactly equal to original |
 | Checks (acceptance + 5 quantities each) | **22,428 / 22,428** for each page; release output exactly equal to original |
 | Largest normalized difference | 4.9 × 10⁻¹⁵ (tolerance 1 × 10⁻⁹ relative to max(1, \|R\|)) |
 | Refusal probes | 26 / 26 (13 invalid inputs) |
@@ -29,7 +30,7 @@ The validator then:
 2. regenerates the real-data corpus from metadat and requires byte identity with `data/real-corpus.csv` and `data/corpus.json`;
 3. computes fresh EValue references (`analysis/reference.R`);
 4. executes the archived page's scripts in document order in Node (`analysis/replay.cjs`, simulated DOM, the page's own click handler and result accessor);
-5. compares with fixed denominators and prints N/N, for the original page and then the v1.8.0 release page (whose output must also equal the original exactly);
+5. compares with fixed denominators and prints N/N, for the original page, then the v1.8.0 release page and the main 6ce55eb page (whose outputs must also equal the original exactly);
 6. runs the planted defects, refusal probes and archive safeguards.
 
 Output goes to `.validate-work/`. If that directory already exists, the run is refused; move it aside first.
@@ -38,6 +39,7 @@ Output goes to `.validate-work/`. If that directory already exists, the run is r
 
 - `PREREG.md`, `PREREG_ADDENDUM.md`, `PREREG_ADDENDUM_2.md`: the plan, written and committed (444eb16) before any EValue corpus result. Addendum 2 widened the real-data corpus to 30 datasets and removed a no-op `sd=1` argument from the MD adapter. `PREREG_ADDENDUM_3.md` (4f8ed9a, before its results) adds the v1.8.0 release replay.
 - `app-original/`: page, engine (`shared/evalue.js`) and local dependencies, byte-identical to allmeta commit 74ff0a7d2263ca8e0c07419888152ea156036abd (`provenance.json`, `provenance-host.json`). The bundled `build-info.js` says v1.7.0. Three text files carry CRLF endings from the `core.autocrlf` working tree. Their LF content equals the git blobs.
+- `app-main-6ce55eb/`: the same seven paths written from allmeta main commit 6ce55eb9232b17b6fb0948ec8217d653acf28b57 (PR #236, not yet released) as git-blob bytes (`provenance-main-6ce55eb.json`). Only `evalue/index.html` differs from v1.8.0: the observed-ratio marker is labelled `1/RR = <value>` for protective effects. Replayed under `PREREG_ADDENDUM_4.md` (run 3, `evidence/fresh/run-3-main-6ce55eb/`); `figures/main-6ce55eb/` holds Figures 1 and 2 re-captured from it.
 - `app-v1.8.0/`: the same seven paths written from the allmeta v1.8.0 tag (commit 1cb3f8409c7af75ed41f7e1811f9c502f900fc79) as git-blob bytes (`provenance-release.json`, `git hash-object` == blob).
 - `data/`: `real-corpus.csv`, `corpus.json`, `oracle-input.csv`, and the exported source datasets in `data/sources/`.
 - `analysis/`: corpus generator, EValue adapter, Node replay, comparator/safeguards (`pipeline.py`), `verify_archive.py`, `test_safeguards.py`, version gate.
@@ -47,7 +49,7 @@ Output goes to `.validate-work/`. If that directory already exists, the run is r
 
 ## Preregistration order and history
 
-`python analysis/verify_archive.py` checks the inventory, the release identifiers and the preregistration order. The order is proved from the git history: the commit that adds `PREREG.md`, `PREREG_ADDENDUM.md` and `PREREG_ADDENDUM_2.md` (444eb16) is older than, and an ancestor of, the first commit touching `evidence/fresh/` (fb111d2), and `PREREG_ADDENDUM_3.md` (4f8ed9a) likewise precedes `evidence/fresh/run-2-release-v1.8.0/` (526f14c). The plan files are unchanged since, and `PREREG_RECORD.json` must agree with the history. A squashed or shallow clone fails, so clone the full history; a copy without `.git` checks the record only.
+`python analysis/verify_archive.py` checks the inventory, the release identifiers and the preregistration order. The order is proved from the git history: the commit that adds `PREREG.md`, `PREREG_ADDENDUM.md` and `PREREG_ADDENDUM_2.md` (444eb16) is older than, and an ancestor of, the first commit touching `evidence/fresh/` (fb111d2), and `PREREG_ADDENDUM_3.md` (4f8ed9a) likewise precedes `evidence/fresh/run-2-release-v1.8.0/` (526f14c), and `PREREG_ADDENDUM_4.md` (a293245) precedes `evidence/fresh/run-3-main-6ce55eb/` (7a76f7c). The plan files are unchanged since, and `PREREG_RECORD.json` must agree with the history. A squashed or shallow clone fails, so clone the full history; a copy without `.git` checks the record only.
 
 The published history is the development history rewritten with redactions; every commit, its order and its timestamps are kept. Machine paths are replaced by `<WORKSPACE>` in every commit (as the tip already did), and internal working files are removed from every commit: `publication/` (manuscript draft, status and task notes, journal notes), and under `references/` the novelty-wording notes, the author-allocation file and the saved journal pages. Unconfirmed co-author entries and an internal note are removed from the historical `CITATION.cff` and `.zenodo.json`. Commit ids therefore differ from the ones the replays ran on; each `evidence/git-archive-replay-*/IDENTITY.txt` gives the mapping, and the `.meta` files keep the original ids.
 

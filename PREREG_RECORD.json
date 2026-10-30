@@ -30,6 +30,19 @@
    "results": "evidence/fresh/run-2-release-v1.8.0",
    "first_results_commit": "526f14c58c3e5af55a2445f2bd78588c42178591",
    "first_results_committed_unix": 1792537689
+  },
+  {
+   "plan": [
+    "PREREG_ADDENDUM_4.md"
+   ],
+   "plan_commit": "a293245810d3e197bfabe9c4db8c95751612aac1",
+   "plan_committed_unix": 1793397635,
+   "plan_blobs": {
+    "PREREG_ADDENDUM_4.md": "e89dae91dea3bcd60ddc369f36612ada24b9b8c7"
+   },
+   "results": "evidence/fresh/run-3-main-6ce55eb",
+   "first_results_commit": "7a76f7c2c41268ee8979546e35b3c58918d3b12e",
+   "first_results_committed_unix": 1793397934
   }
  ]
 }

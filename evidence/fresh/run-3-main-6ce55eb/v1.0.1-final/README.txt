@@ -1,0 +1,2 @@
+One-command validation of the 1.0.1 tree (Rscript --vanilla validate.R < NUL, exit 0; validate-stdout.log) and analysis/verify_archive.py (verify-archive-stdout.log), run 2026-10-30 on the tree pinned before these logs were added.
+planted-snapshot-byte-validate-stdout.log: one byte of app-main-6ce55eb/evalue/index.html changed (offset 12678, the 1 of 1/RR to 7) after pinning; the validator refused (exit 1, Hash mismatch). The change was reverted with git checkout.
