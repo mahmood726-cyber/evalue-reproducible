@@ -1,4 +1,25 @@
-# Equivalence of the archived release page with allmeta v1.8.0
+# Equivalence of the archived release pages with allmeta v1.9.0 and v1.8.0
+
+## allmeta v1.9.0 (validated release)
+
+allmeta v1.9.0: tag `v1.9.0` (tag object `7c846614080ad3167f8890de46460818d837e645`), commit
+`d38d3fd70656f3fedfa03916573fe0bf904f5e9c`, DOI 10.5281/zenodo.23833871 (the Zenodo record reports version v1.9.0). Its parent
+is `6ce55eb9232b17b6fb0948ec8217d653acf28b57` (allmeta PR #236, the 1/RR marker label), validated in run 3
+(`app-main-6ce55eb/`, PREREG_ADDENDUM_4.md). The release commit changes `CHANGELOG.md`, `CITATION.cff` and
+`shared/build-info.js`; only the last is among the page's files.
+
+All 7 files in `app-v1.9.0/` are byte-identical to the v1.9.0 blobs (`git hash-object` equals the blob id of
+`d38d3fd:<path>`; `provenance-release-v1.9.0.json`). Compared with `app-main-6ce55eb/`, only `shared/build-info.js` differs
+(build stamp v1.9.0/6ce55eb; not displayed in the validated output). Compared with `app-v1.8.0/`, `evalue/index.html` (the
+1/RR label) and `shared/build-info.js` differ; the engine `shared/evalue.js` is identical.
+
+Replay on the v1.9.0 bytes (run 4, PREREG_ADDENDUM_5.md, `evidence/fresh/run-4-release-v1.9.0/`, 31 Oct 2026, Node v24.13.0,
+R 4.6.0, EValue 4.1.4): **22,428/22,428** checks on 3,738 configurations (largest normalized difference 4.86e-15), refusals
+26/26, and the output equals the original page's exactly (`release-v1.9.0-vs-original.json`). Figures 1 and 2 with the
+1/RR label (`figures/main-6ce55eb/`) were captured from `app-main-6ce55eb/`, whose rendering files are byte-identical to
+v1.9.0. All of the archive's comparison results therefore apply unchanged to allmeta v1.9.0.
+
+## allmeta v1.8.0
 
 allmeta v1.8.0: tag `v1.8.0`, commit `1cb3f8409c7af75ed41f7e1811f9c502f900fc79`, DOI 10.5281/zenodo.23515177.
 The page was first validated at commit `74ff0a7d2263ca8e0c07419888152ea156036abd` (run 1, `app-original/`), which is an

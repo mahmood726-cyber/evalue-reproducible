@@ -1,0 +1,4 @@
+Exact R/package versions PASS
+FAIL: Hash mismatch: app-v1.9.0/shared/build-info.js
+Error: Validation failed, exit 1
+Execution halted

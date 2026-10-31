@@ -1,0 +1,7 @@
+450 archive hashes verified
+allmeta v1.9.0 and v1.8.0 release identifiers filled; release equivalence records present
+Preregistration: PREREG.md + PREREG_ADDENDUM.md + PREREG_ADDENDUM_2.md (444eb16) precede the first evidence/fresh commit (fb111d2) in the git history
+Preregistration: PREREG_ADDENDUM_3.md (4f8ed9a) precede the first evidence/fresh/run-2-release-v1.8.0 commit (526f14c) in the git history
+Preregistration: PREREG_ADDENDUM_4.md (a293245) precede the first evidence/fresh/run-3-main-6ce55eb commit (7a76f7c) in the git history
+Preregistration: PREREG_ADDENDUM_5.md (2b531b5) precede the first evidence/fresh/run-4-release-v1.9.0 commit (d354930) in the git history
+Preregistration files equal their preregistered blobs

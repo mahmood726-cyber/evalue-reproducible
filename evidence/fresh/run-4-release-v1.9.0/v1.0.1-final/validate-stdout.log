@@ -1,0 +1,16 @@
+Exact R/package versions PASS
+Archive integrity PASS: 450 files
+22428/22428 checks pass
+Planted comparator defects (1e-8 perturbation, dropped configuration, duplicate ID, nonfinite) all rejected
+Planted app-source defect rejected: 21691/22428 checks pass
+26/26 checks pass (refusals)
+22428/22428 checks pass (release v1.8.0)
+26/26 checks pass (release v1.8.0 refusals)
+Release v1.8.0 output identical to original page (exact)
+22428/22428 checks pass (main 6ce55eb)
+26/26 checks pass (main 6ce55eb refusals)
+Main 6ce55eb output identical to original page (exact)
+22428/22428 checks pass (release v1.9.0)
+26/26 checks pass (release v1.9.0 refusals)
+Release v1.9.0 output identical to original page (exact)
+9/9 archive/version safeguards pass: changed, missing, extra, prereg-record-mismatch, prereg-squashed, prereg-results-first, prereg-edited, prereg-shallow, wrong-R-version

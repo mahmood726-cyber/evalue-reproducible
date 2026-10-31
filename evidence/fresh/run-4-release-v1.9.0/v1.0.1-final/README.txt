@@ -1,0 +1,2 @@
+One-command validation of the 1.0.1 tree naming allmeta v1.9.0 (Rscript --vanilla validate.R < NUL, exit 0; validate-stdout.log) and analysis/verify_archive.py (verify-archive-stdout.log), run 2026-10-31 on the tree pinned before these logs were added.
+planted-build-info-byte-validate-stdout.log: one byte of app-v1.9.0/shared/build-info.js changed (offset 928, v1.9.0 to v1.8.0) after pinning; the validator refused (exit 1, Hash mismatch). Reverted with git checkout.

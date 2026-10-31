@@ -1,6 +1,8 @@
 # Changelog
 
-## 1.0.1 (2026-10-30)
+## 1.0.1 (2026-10-31)
+
+allmeta v1.9.0 (tag commit d38d3fd70656f3fedfa03916573fe0bf904f5e9c, DOI 10.5281/zenodo.23833871), whose parent is 6ce55eb, is now the validated release. `app-v1.9.0/` holds its seven page files as git-blob bytes (`provenance-release-v1.9.0.json`); only `shared/build-info.js` differs from `app-main-6ce55eb/`. `PREREG_ADDENDUM_5.md` (2b531b5) was committed before any result, and run 4 (`evidence/fresh/run-4-release-v1.9.0/`) gives 22,428/22,428, 26/26 refusals and output identical to the original page. README.md, CITATION.cff, .zenodo.json (adds isSupplementTo the v1.9.0 DOI) and RELEASE_EQUIVALENCE.md name v1.9.0 and keep v1.8.0; `analysis/verify_archive.py` requires both; `PREREG_RECORD.json` has a fourth stage. The release date is 2026-10-31.
 
 Adds `app-main-6ce55eb/`, the page's seven files written from the git blobs of allmeta main commit 6ce55eb9232b17b6fb0948ec8217d653acf28b57 (merge of allmeta PR #236, persona review item P0-42; not yet in an allmeta release). Its only change from `app-v1.8.0/` is `evalue/index.html`: the text above the observed risk-ratio marker reads `1/RR = <value>` for a protective effect (previously always `RR`), and the plot's aria-label says so (`provenance-main-6ce55eb.json`). `PREREG_ADDENDUM_4.md` (a293245) was committed before any result. `analysis/pipeline.py` now replays this snapshot after the v1.8.0 one (the release step takes the page and an output prefix): run 3, `evidence/fresh/run-3-main-6ce55eb/`, gives 22,428/22,428 checks, 26/26 refusals, and output identical to the original page (exact). Figures 1 and 2 were re-captured from the new snapshot into `figures/main-6ce55eb/` (Edge 155.0.4283.62, playwright-core 1.59.1, `tools/capture_figure_main-6ce55eb.cjs`; `#plot` text recorded and required to contain `1/RR`); the earlier figures in `figures/` are unchanged. `PREREG_RECORD.json` has a third stage. SOURCE_SHA256.json is re-pinned.
 
