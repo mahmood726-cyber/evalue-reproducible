@@ -1,0 +1,65 @@
+Warning messages:
+1: One or more SMD values are unusually large (i.e., abs(yi) > 2).
+Maybe SEs were used in place of SDs to compute them? 
+2: One or more SMD values are unusually large (i.e., abs(yi) > 2).
+Maybe SEs were used in place of SDs to compute them? 
+3: One or more SMD values are unusually large (i.e., abs(yi) > 2).
+Maybe SEs were used in place of SDs to compute them? 
+dat.gibson2002 RR: 8 non-estimable rows excluded
+dat.gibson2002 OR: 8 non-estimable rows excluded
+dat.anand1999 RR: 0 non-estimable rows excluded
+dat.anand1999 OR: 0 non-estimable rows excluded
+dat.egger2001 RR: 0 non-estimable rows excluded
+dat.egger2001 OR: 0 non-estimable rows excluded
+dat.graves2010 RR: 0 non-estimable rows excluded
+dat.graves2010 OR: 0 non-estimable rows excluded
+dat.hahn2001 RR: 0 non-estimable rows excluded
+dat.hahn2001 OR: 0 non-estimable rows excluded
+dat.hine1989 RR: 0 non-estimable rows excluded
+dat.hine1989 OR: 0 non-estimable rows excluded
+dat.laopaiboon2015 RR: 0 non-estimable rows excluded
+dat.laopaiboon2015 OR: 0 non-estimable rows excluded
+dat.lau1992 RR: 0 non-estimable rows excluded
+dat.lau1992 OR: 0 non-estimable rows excluded
+dat.lee2004 RR: 0 non-estimable rows excluded
+dat.lee2004 OR: 0 non-estimable rows excluded
+dat.li2007 RR: 0 non-estimable rows excluded
+dat.li2007 OR: 0 non-estimable rows excluded
+dat.linde2005 RR: 2 non-estimable rows excluded
+dat.linde2005 OR: 2 non-estimable rows excluded
+dat.nielweise2007 RR: 0 non-estimable rows excluded
+dat.nielweise2007 OR: 0 non-estimable rows excluded
+dat.yusuf1985 RR: 12 non-estimable rows excluded
+dat.yusuf1985 OR: 12 non-estimable rows excluded
+dat.hart1999 RR: 0 non-estimable rows excluded
+dat.hart1999 OR: 0 non-estimable rows excluded
+dat.bcg RR: 0 non-estimable rows excluded
+dat.bcg OR: 0 non-estimable rows excluded
+dat.colditz1994 RR: 0 non-estimable rows excluded
+dat.colditz1994 OR: 0 non-estimable rows excluded
+dat.damico2009 RR: 0 non-estimable rows excluded
+dat.damico2009 OR: 0 non-estimable rows excluded
+dat.hartmannboyce2018 RR: 0 non-estimable rows excluded
+dat.hartmannboyce2018 OR: 0 non-estimable rows excluded
+dat.dorn2007 RR: 0 non-estimable rows excluded
+dat.dorn2007 OR: 0 non-estimable rows excluded
+dat.moore1998 RR: 0 non-estimable rows excluded
+dat.moore1998 OR: 0 non-estimable rows excluded
+dat.viechtbauer2021 RR: 0 non-estimable rows excluded
+dat.viechtbauer2021 OR: 0 non-estimable rows excluded
+dat.collins1985a RR: 2 non-estimable rows excluded
+dat.collins1985a OR: 2 non-estimable rows excluded
+dat.cannon2006 RR: 0 non-estimable rows excluded
+dat.cannon2006 OR: 0 non-estimable rows excluded
+dat.thompson1999 RR: 0 non-estimable rows excluded
+dat.thompson1999 OR: 0 non-estimable rows excluded
+dat.vanhowe1999 RR: 0 non-estimable rows excluded
+dat.vanhowe1999 OR: 0 non-estimable rows excluded
+dat.landenberger2005 RR: 0 non-estimable rows excluded
+dat.landenberger2005 OR: 0 non-estimable rows excluded
+dat.curtis1998 SMD: 0 non-estimable rows excluded
+dat.normand1999 SMD: 0 non-estimable rows excluded
+dat.dagostino1998 SMD: 38 non-estimable rows excluded
+dat.furukawa2003 SMD: 0 non-estimable rows excluded
+dat.gibson2002 SMD: 2 non-estimable rows excluded
+2413 real-data configurations from 30 datasets generated; these are inputs, not EValue validation results

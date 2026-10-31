@@ -1,0 +1,88 @@
+{
+  "runtime": "v24.13.0",
+  "scripts": [
+    {
+      "file": "../shared/build-info.js",
+      "sha256": "232a5a903b1fcc451fede886d11688a80c0dce736d60a3613cc8ef5d41c94668"
+    },
+    {
+      "file": "../shared/evalue.js",
+      "sha256": "c9a4db8ce19358f511c560eb196426e4573b5fae92bcc2e1a5aa84f0a2a73136"
+    },
+    {
+      "file": "inline-2",
+      "sha256": "93475c13f9c3c22811e73611a29ff1cb902b50425fdd7120e4cee74b07a342fc"
+    },
+    {
+      "file": "../hub/shared/a11y-landmarks.js",
+      "sha256": "f7a89f3c72dd80f666d16d52592a7e60f45fba62efc9dfeb4c2faf7fb0e8b5a2"
+    }
+  ],
+  "rows": [
+    {
+      "id": "refuse-missing-point",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-zero-ratio",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-negative-ratio",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-text-point",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-malformed-point",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-malformed-ci",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-partial-ci",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-reversed-ci",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-noncontaining-ci",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-zero-limit",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-nonfinite",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-overflow-smd",
+      "accepted": false,
+      "values": null
+    },
+    {
+      "id": "refuse-unsupported",
+      "accepted": false,
+      "values": null
+    }
+  ]
+}

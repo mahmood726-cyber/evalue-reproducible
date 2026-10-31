@@ -333,13 +333,15 @@ def full():
     release(cases,expected,actual,refusal_cases,work)
     # PREREG_ADDENDUM_4.md: allmeta main 6ce55eb (1/RR label), same reference and checks.
     release(cases,expected,actual,refusal_cases,work,"app-main-6ce55eb/evalue/index.html","main-6ce55eb","main 6ce55eb")
+    # PREREG_ADDENDUM_5.md: allmeta release v1.9.0 (d38d3fd), same reference and checks.
+    release(cases,expected,actual,refusal_cases,work,"app-v1.9.0/evalue/index.html","release-v1.9.0","release v1.9.0")
     print(run([sys.executable,"-B","analysis/test_safeguards.py"],
               log=work/"archive-safeguards.log"), end="", flush=True)
 
 
 def release(cases,expected,original,refusal_cases,work,page="app-v1.8.0/evalue/index.html",
             prefix="release",label="release v1.8.0"):
-    """PREREG_ADDENDUM_3.md (v1.8.0) and PREREG_ADDENDUM_4.md (main 6ce55eb): replay a snapshot against the same reference."""
+    """PREREG_ADDENDUM_3.md (v1.8.0), _4 (main 6ce55eb) and _5 (v1.9.0): replay a snapshot against the same reference."""
     actual=replay(cases,work,prefix,page)
     summary=compare(expected,actual)
     write(work/(prefix+"-summary.json"),summary)
